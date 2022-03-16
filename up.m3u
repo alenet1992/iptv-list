@@ -1,1093 +1,1404 @@
-#EXTM3U
+#EXTM3U x-tvg-url="https://github.com/LITUATUI/M3UPT/raw/main/epg/epg-vodafone.xml.gz"
+
+# M3UPT.com - M3U playlist of TV channels and radio stations in Portuguese optimized for Kodi. Public and official streams only.
+
+# 📺 TV channels
+
+#EXTINF:-1 group-title="TV" tvg-id="rtp1hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png",RTP 1
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://streaming-live.rtp.pt/liverepeater/rtpClean1HD.smil/playlist.m3u8|user-agent=RTP Play/2.0.26 (Linux;Android 11) ExoPlayerLib/2.11.8
+
+#EXTINF:-1 group-title="TV" tvg-id="rtp2hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.png",RTP 2
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://streaming-live.rtp.pt/liverepeater/rtpClean2HD.smil/playlist.m3u8|user-agent=RTP Play/2.0.26 (Linux;Android 11) ExoPlayerLib/2.11.8
+
+#EXTINF:-1 group-title="TV" tvg-id="sichd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#https://live.impresa.pt/live/sic/sic.m3u8
+https://sic.live.impresa.pt/sic.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="sichd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.png",SIC (Estrangeiro)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="tvihd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.png",TVI
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://video-auth6.iol.pt/live_tvi/live_tvi/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8xNi8yMDIyIDEwOjIwOjMzIEFNJmhhc2hfdmFsdWU9b1JsbDBXS2E4U0cwRTduaFg1ZUZqZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTA0YzIyNDc2LWYwM2YtNGQyNy04NmIwLWJlZTM0YTIwZGQ2Yw==/
+
+#EXTINF:-1 group-title="TV" tvg-id="rtp3hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP3.png",RTP 3
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8|user-agent=RTP Play/2.0.26 (Linux;Android 11) ExoPlayerLib/2.11.8
+
+#EXTINF:-1 group-title="TV" tvg-id="sicnhd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC-Notícias.png",SIC Notícias
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#https://live.impresa.pt/live/sicnot/sicnot.m3u8
+https://sicnot.live.impresa.pt/sicnot.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="cnnpthd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Portugal.png",CNN Portugal
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://video-auth7.iol.pt/live_cnn/live_cnn/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8xNi8yMDIyIDEwOjIwOjM0IEFNJmhhc2hfdmFsdWU9cXRmMTA1d2h4Y2hFTCthenhEalpKZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPTM0MGQ2YTI2LWI2ODgtNDRhOS05MGYyLTFkM2RhNzU2YmYyNA==/
+
+#EXTINF:-1 group-title="TV" tvg-id="CNN Brasil" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN-Brasil.png",CNN Brasil
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://video01.soultv.com.br/cnnbrasil/cnnbrasil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="euronw.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews PT
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://rakuten-euronews-8-pt.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="euronw.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews PT (Kodi) 
+plugin://plugin.video.youtube/play/?video_id=JyC8mwZqJao
+
+#EXTINF:-1 group-title="TV" tvg-id="artv.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.png",ARTV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://playout175.livextend.cloud/livenlin4/2liveartvpub/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="rtpmem.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Memória.png",RTP Memória
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8|user-agent=RTP Play/2.0.26 (Linux;Android 11) ExoPlayerLib/2.11.8
+
+#EXTINF:-1 group-title="TV" tvg-id="rtpacorhd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Açores.png",RTP Açores
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8|user-agent=RTP Play/2.0.26 (Linux;Android 11) ExoPlayerLib/2.11.8
+
+#EXTINF:-1 group-title="TV" tvg-id="rtpmad.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Madeira.png",RTP Madeira
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8|user-agent=RTP Play/2.0.26 (Linux;Android 11) ExoPlayerLib/2.11.8
+
+#EXTINF:-1 group-title="TV" tvg-id="rtpaf.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png",RTP África
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8|user-agent=RTP Play/2.0.26 (Linux;Android 11) ExoPlayerLib/2.11.8
+
+#EXTINF:-1 group-title="TV" tvg-id="RTPInternacional.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Internacional.png",RTP Internacional
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8|user-agent=RTP Play/2.0.26 (Linux;Android 11) ExoPlayerLib/2.11.8
+
+#EXTINF:-1 group-title="TV" tvg-id="SICInt.pt" tvg-logo="https://github.com/LITUATUI/M3UPT/raw/main/logos/SIC-Internacional.png",SIC Internacional
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#http://live.impresa.pt/live/sicint/sicint.m3u8
+#https://sicint.live.impresa.pt/sicint.m3u8
+http://200.4.96.59:8004/play/a0f4/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="TVIInt.pt" tvg-logo="https://github.com/LITUATUI/M3UPT/raw/main/logos/TVI-Internacional.png",TVI Internacional
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://video-auth6.iol.pt/live_tvi_internacional/live_tvi_internacional/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8xNi8yMDIyIDEwOjIwOjM1IEFNJmhhc2hfdmFsdWU9UStlbm5MMUVGN29jeXcxOHppUW1qZz09JnZhbGlkbWludXRlcz0xNDQwJmlkPWY3NzQ0MWY1LWQ4M2ItNDEyNC1hZWFiLTA0MWFmNmRkMzY2OA==/
+
+#EXTINF:-1 group-title="TV" tvg-id="TVIFIC.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Ficção.png",TVI Ficção
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://video-auth2.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="TVIR.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI-Reality.png",TVI Reality
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://video-auth2.iol.pt/live_tvi_direct/live_tvi_direct/edge_servers/tvireality-480p/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="portochd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porto-Canal.png",Porto Canal
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://streamer-a03.videos.sapo.pt/live/portocanal/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Fama-TV.jpg",Fama TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://streamer-b02.videos.sapo.pt/live/famatv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="canal11hd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Canal-11.png",Canal 11
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://d2ve4fchffi4n1.cloudfront.net/out/v1/df356edd16f3434ab417f2c48cb1d516/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="MyTime Movie Network" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/My-Time-Movie-Network.png",MyTime Movie Network (BR)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="MovieSphere" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/MovieSphere.jpg",MovieSphere
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://moviesphere-plex.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Love Nature TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Love-Nature-TV.png",Love Nature TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://bamus-eng-roku.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Porta-dos-Fundos.jpg",Porta dos Fundos
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f36f2346ede750007332d11/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/BraziTV.png",BraziTV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://oj7lng29dg82-hls-live.5centscdn.com/lives/f7b44cfafd5c52223d5498196c8a2e7b.sdp/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TV-camara.png",TV Câmara
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://stream3.camara.gov.br/tv1/manifest.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Futura [Brazil]" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Canal-Futura.png",Canal Futura
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://tv.unisc.br/hls/test.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="AgroBrasil TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/AgroBrasil-TV.png",AgroBrasil TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://45.162.230.234:1935/agrobrasiltv/agrobrasiltv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="SBT [Brazil]" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SBT.png",SBT
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://evpp.mm.uol.com.br/ne10/ne10.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TDM-Teledifusão_de_Macau.png",TDM - Teledifusão de Macau (PT)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://live4.tdm.com.mo/ch2/_definst_/ch2.live/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TDM-Teledifusão_de_Macau.png",TDM - Teledifusão de Macau (CN)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://live4.tdm.com.mo/ch1/_definst_/ch1.live/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVM.png",TVM
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://196.28.226.121:1935/live/smil:Channel1.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVMI.png",TVM Internacional
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://196.28.226.121:1935/live/smil:Channel2.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/STV.jpg",STV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://dcunilive36-lh.akamaihd.net/i/dclive_1@668002/master.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="euronewsen.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews EN
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://euronews-euronews-world-1-au.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="euronewsen.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews ES
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://rakuten-euronews-4-es.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="euronewsen.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews IT
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://rakuten-euronews-3-it.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="euronewsen.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews FR
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://rakuten-euronews-2-fr.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="euronewsen.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Euronews.png",Euronews DE
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://rakuten-euronews-5-de.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="TELESUR.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Telesur.png",teleSUR
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="TELESUR.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Telesur.png",teleSUR (Kodi)
+#plugin://plugin.video.youtube/play/?video_id=qxfPdDeR4sE
+
+#EXTINF:-1 group-title="TV" tvg-id="TELESUR.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Telesur.png",teleSUR English
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://cdnenmain.telesur.ultrabase.net/mblivev3/hd/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="TELESUR.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Telesur.png",teleSUR English (Kodi)
+#plugin://plugin.video.youtube/play/?video_id=OIbIRrFHrPI
+
+#EXTINF:-1 group-title="TV" tvg-id="HispanTV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/HispanTV.png",HispanTV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://live1.presstv.ir/live/hispan.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Press-TV.png",Press TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://live1.presstv.ir/live/presstv.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Free-Speech-TV.webp",Free Speech TV
+https://edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Live/channel(b168a609-19c1-2203-ae1d-6b9726f05e67)/04.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="russia.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RT-News.png",RT News
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
+https://live-hr6yv36f.rmbl.ws/slot-30/ngrp:srak-wx8r_all/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="russia.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RT-News.png",RT News (Kodi)
+#plugin://plugin.video.youtube/play/?video_id=V0I5eglJMRI
+
+#EXTINF:-1 group-title="TV" tvg-id="RUSSTHD.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RT-America.png",RT America
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#https://rt-usa.rttv.com/live/rtusa/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="RUSSTHD.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RT-America.png",RT America (Kodi)
+#plugin://plugin.video.youtube/play/?video_id=9RVXr2Gvrn4
+
+#EXTINF:-1 group-title="TV" tvg-id="RT HD" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RT-UK.png",RT UK
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#https://rt-uk.rttv.com/live/rtuk/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="RT HD" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RT-UK.png",RT UK (Kodi)
+#plugin://plugin.video.youtube/play/?video_id=NcoFT4eew0Q
+
+#EXTINF:-1 group-title="TV" tvg-id="RT Español" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RT-Español.png",RT Español
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="RT Español" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RT-Español.png",RT Español (Kodi)
+#plugin://plugin.video.youtube/play/?video_id=K7LONr__wA0
+
+#EXTINF:-1 group-title="TV" tvg-id="RT Francia HD" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RT-France.png",RT France
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#https://rt-fra.rttv.com/live/rtfrance/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="RT Francia HD" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RT-France.png",RT France (Kodi)
+#plugin://plugin.video.youtube/play/?video_id=SjV-bNomRkY
+
+#EXTINF:-1 group-title="TV" tvg-id="rtdoc.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RT-Documentary.png",RT Documentary
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="CGTNHD.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CGTN.png",CGTN
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://live.cgtn.com/1000/prog_index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="CGTN Español" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CGTN-Español.png",CGTN Español
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://livees.cgtn.com/1000e/prog_index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="CGTNFrancais.cn" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CGTN-Français.png",CGTN Français
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://livefr.cgtn.com/1000f/prog_index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="CGTNDHD.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CGTN-Documentary.png",CGTN Documentary
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://livedoc.cgtn.com/1000d/prog_index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="aljaze.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Al-Jazeera.png",Al Jazeera English
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://live-hls-web-aje.getaj.net/AJE/01.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="aljaze.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Al-Jazeera.png",Al Jazeera English (Kodi)
+plugin://plugin.video.youtube/play/?video_id=-upyPouRrB8
+
+#EXTINF:-1 group-title="TV" tvg-id="skynews.tv.vodafone.pt" tvg-logo="https://m3upt.com/logos/Sky-News.png",Sky News (Kodi)
+plugin://plugin.video.youtube/play/?video_id=9Auq9mYxFEE
+
+#EXTINF:-1 group-title="TV" tvg-id="fra24e.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/France-24.png",France 24 English
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://static.france24.com/live/F24_EN_LO_HLS/live_ios.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/France-24.png",France 24 Español
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://f24hls-i.akamaihd.net/hls/live/520845/F24_ES_HI_HLS/master.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="fra24f.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/France-24.png",France 24 Français
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://static.france24.com/live/F24_FR_LO_HLS/live_ios.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/France-24.png",France 24 Arabic
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://static.france24.com/live/F24_AR_HI_HLS/live_tv.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="cnn.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNN.png",CNN
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://cnn-cnninternational-1-eu.rakuten.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="ABC News" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ABC-News.png",ABC News
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="ABC News" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ABC-News.png",ABC News (Kodi)
+plugin://plugin.video.youtube/play/?video_id=w_Ma8oQLmSM
+
+#EXTINF:-1 group-title="TV" tvg-id="CBSN" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CBSN.png",CBS News
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="CBSN" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CBSN.png",CBS News (Kodi)
+plugin://plugin.video.youtube/play/?video_id=6iRihrHvGQM
+
+#EXTINF:-1 group-title="TV" tvg-id="NBC News Now" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NBC-News-Now.png",NBC News Now
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://dai2.xumo.com/xumocdn/p=roku/amagi_hls_data_xumo1212A-xumo-nbcnewsnow/CDN/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="NBC News Now" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NBC-News-Now.png",NBC News Now (Kodi)
+plugin://plugin.video.youtube/play/?video_id=u612D44Fw8g
+
+#EXTINF:-1 group-title="TV" tvg-id="Reuters TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Reuters-TV.png",Reuters TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://reuters-reuters-1-eu.rakuten.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="NASA TV Public" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NASA.png",NASA TV Public
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="NASA TV Public" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NASA.png",NASA TV Public (Kodi)
+plugin://plugin.video.youtube/play/?video_id=21X5lGlDOfg
+
+#EXTINF:-1 group-title="TV" tvg-id="NASA TV Media" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NASA.png",NASA TV Media
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="NASA TV Media" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NASA.png",NASA TV Media (Kodi)
+plugin://plugin.video.youtube/play/?video_id=nA9UZF-SZoQ
+
+#EXTINF:-1 group-title="TV" tvg-id="BLOOM.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Bloomberg.png",Bloomberg TV Europe
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://bloomberg-bloomberg-1-pt.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="BLOOM.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Bloomberg.png",Bloomberg TV Brasil
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://bloomberg-bloomberg-3-br.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="BLOOM.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Bloomberg.png",Bloomberg TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://liveprodusphoenixeast.akamaized.net/USPhx-HD/Channel-TX-USPhx-AWS-virginia-1/Source-USPhx-16k-1-s6lk2-BP-07-03-0Yn1cQZHOtP_live.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="nhkworld.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NHK-World.png",NHK World Japan
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/2003458/live.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="dw.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Deutsche-Welle.png",Deutsche Welle
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="DW Espanol" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Deutsche-Welle.png",Deutsche Welle Español
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="DW Deutsch" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Deutsche-Welle.png",Deutsche Welle Deutsch
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://dwamdstream106.akamaized.net/hls/live/2017965/dwstream106/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="DW Deutsch" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Deutsche-Welle.png",Deutsche Welle Deutsch+
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://dwamdstream105.akamaized.net/hls/live/2015531/dwstream105/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="DW Deutsch" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Deutsche-Welle.png",Deutsche Welle Arabic
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="tv5mon.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TV5-Monde-Info.png",TV5 Monde Info
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://v3plusinfo247hls-i.akamaihd.net/hls/live/218877/v3plusinfo247hls/v3plusinfo247hls_1_2.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="BFM.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/BFM-TV.png",BFM TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://bfmtvalive1-a.akamaihd.net/316e573c8855429887f65feb189fb5a7/eu-central-1/876450610001/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="BFMB.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/BFM-Business.png",BFM Business
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_BUSINESS/index.m3u8?start=LIVE&end=END
+
+#EXTINF:-1 group-title="TV" tvg-id="" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/7NN-Noticias.png",7NN Noticias
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://amg01573-7nn-7nnono-ono-pcdj3.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="tve24.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVE-24h.png",TVE 24h
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://rtvelivestreamv3.akamaized.net/24h/24h_main.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="tve24.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVE-24h.png",TVE 24h (Kodi)
+plugin://plugin.video.youtube/play/?video_id=2CN2zI5v5eY
+
+#EXTINF:-1 group-title="TV" tvg-id="LA 1" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/La1.png",La 1
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://rtvelivestreamv3.akamaized.net/rtvesec/la1/la1_main.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="LA 2" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/La2.png",La 2
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://rtvelivestreamv3.akamaized.net/rtvesec/la2/la2_main.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="tvgalicia.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVG.png",TV Galicia
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://europa-crtvg.flumotion.com/crtvg/europa_high/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="ETB 1" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ETB-1.png",ETB 1
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://multimedia.eitb.eus/live-content/etb1hd-hls/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="ETB 2" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ETB-2.png",ETB 2
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://multimedia.eitb.eus/live-content/etb2hd-hls/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="ETB Sat" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/EITB-EUS.png",EITB.EUS
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://live-dvr.eitb-fastly.cross-media.es/live-content/eitbbasque-hls/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Canal Extremadura" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Canal-Extremadura.png",Canal Extremadura
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://cdnlive.codev8.net/canalextremaduralive/smil:channel1.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="cubavi.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Cubavisión-Internacional.png",Cubavisión Internacional
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8|Referer=https://teveo.cu/
+
+#EXTINF:-1 group-title="TV" tvg-id="Sky TG24 HD" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Sky-TG24.png",Sky TG24
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#https://skyanywhere3-i.akamaihd.net/hls/live/751544/tg24ta/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="rainews.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Rai-News-24.png",Rai News 24
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#https://rainews1-live.akamaized.net/hls/live/598326/rainews1/rainews1/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Cartoon Network Brasil" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Cartoon-Network.png",Cartoon Network Brasil (Kodi)
+plugin://plugin.video.youtube/play/?video_id=hpXd-M9ZDCE
+
+#EXTINF:-1 group-title="TV" tvg-id="Nick Clássico" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Nick-Clássico.jpg",Nick Clássico
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f12151794c1800007a8ae63/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown
+
+#EXTINF:-1 group-title="TV" tvg-id="BabyFirst" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/BabyFirst.png",BabyFirst
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f4fb4cf605ddf000748e16f/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown
+
+#EXTINF:-1 group-title="TV" tvg-id="Retrô Cartoon" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Retro-TV.png",Retrô Cartoon
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://stmv1.srvif.com/retrotv/retrotv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Locomotion.png",Locomotion
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#http://locomotiontv.com/envivo/loco_ch/stream.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Cachipum-TV.png",Cachipum.TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#https://tls.cdnz.cl/cachipuntv/live/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Gulli.png",Gulli
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://d13anarbtxy8c5.cloudfront.net/6play/short/clr/gulli/sdindex.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/On-FM.png",On FM Portugal
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Rádio-Sines.png",Rádio Sines
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://streamer-a01.videos.sapo.pt/live/radiosinesdireto/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Rádio-Clube-TV.jpg",Rádio Clube TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://stmv1.srvsite.com/clubefmradio/clubefmradio/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="tracehd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TRACE-Urban.png",Trace Urban
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="CLUBHD.meo.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Clubbing-TV.png",Clubbing TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://clubbingtv-rakuten.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="1HD Music" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/1HD.png",1HD Music
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/mono.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NRG-91-TV.png",NRG 91 TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://tv.nrg91.gr:1935/onweb/live/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Deejay TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/DeeJay-TV.png",DeeJay TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://deejay-tv-lh.akamaized.net/i/DeejayTv_1@129866/master.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="4FUN.TV" tvg-id="4fun.pl" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/4Fun-TV.png",4Fun.TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://stream.4fun.tv:8888/hls/4f_high/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="" tvg-id="Sexy KPOP TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Sexy-KPOP-TV.png",Sexy KPOP TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://srv1.zcast.com.br/kpoptv/kpoptv/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/FM-Italia-TV.png",FM Italia TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://stream1.xdevel.com/video0s975817-1182/stream/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Colosal-TV.png",Colosal TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CMC.png",California Music Channel
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://cmc-ono.amagi.tv/amRdirect/device[did]=%5BAD_IDFA%5B&us_privacy=%7BUS_PRIVACY%7D&coppa=%7BCOPPA%7D&uid=1fpn9sr15-vpg2-1jg-4kgx-p57ss8l4h2/hls/amagi_hls_data_cmcAAAAAA-cmc-ono/CDN/1920x1080_5711200/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CMC.png",Country Music Channel
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://cmctv.ios.internapcdn.net/cmctv_vitalstream_com/live_1/CMCU-92/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Fuel-TV.png",Fuel TV 
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://fueltv-fueltv-9-br.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Red-Bull-TV.png",Red Bull TV 
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Abu Dhabi Sports" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Abu-Dhabi-Sports-1.png",Abu Dhabi Sports 1
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://admdn1.cdn.mangomolo.com/adsports1/smil:adsports1.stream.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Abu Dhabi Sports 2" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Abu-Dhabi-Sports-2.png",Abu Dhabi Sports 2
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://admdn5.cdn.mangomolo.com/adsports2/smil:adsports2.stream.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Abu Dhabi Sports 3" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Abu-Dhabi-Sports-3.png",Abu Dhabi Sports 3
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://admdn3.cdn.mangomolo.com/adsports3/smil:adsports3.stream.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Abu Dhabi Sports 4" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Abu-Dhabi-Sports-4.png",Abu Dhabi Sports 4
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://admdn4.cdn.mangomolo.com/adsports4/smil:adsports4.stream.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Yas TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Yas-TV.png",Yas TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://admdn1.cdn.mangomolo.com/yastv/smil:yastv.stream.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Dubai Sports" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Dubai-Sports.png",Dubai Sports
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://dmitnthvll.cdn.mangomolo.com/dubaisports/smil:dubaisports.smil/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Dubai Sports 2" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Dubai-Sports-2.png",Dubai Sports 2
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Dubai Sports 3" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Dubai-Sports-3.png",Dubai Sports 3
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Dubai Racing 1 HD" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Dubai-Racing.png",Dubai Racing
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://dmisvthvll.cdn.mangomolo.com/events/smil:events.smil/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Dubai-Racing.png",Dubai Racing 2
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://dmithrvll.cdn.mangomolo.com/dubairacing/smil:dubairacing.smil/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="fashiontvhd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Fashion-TV.png",Fashion TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://fash1043.cloudycdn.services/slive/_definst_/ftv_ftv_paris_pg_4dg_27027_paris_pg18_188_hls.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="fashiontvhd.tv.vodafone.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Fashion-TV.png",Fashion TV (Kodi)
+plugin://plugin.video.youtube/play/?video_id=vmUQeKZpuic
+
+#EXTINF:-1 group-title="TV" tvg-id="hd-fashion" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/HD-Fashion-&-Lifestyle-TV.png",HD Fashion & Lifestyle TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+http://95.67.47.114/hls/hdfashion_ua_hi/index.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/World-Fashion-Channel.jpg",World Fashion Channel
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://wfcint.mediacdn.ru/cdn/wfcintweb/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Gong TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/GONG.png",GONG
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#https://51.254.215.79/appflux/gong/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Gong Max" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/GONG-Max.png",GONG Max
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#https://51.254.215.79/appflux/gongmax/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Dubai One" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Dubai-One.png",Dubai One
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://dminnvll.cdn.mangomolo.com/dubaione/smil:dubaione.stream.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="ICI Canal international HD" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ICI-Television.png",ICI Television
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://ici-i.akamaihd.net/hls/live/873426/ICI-Live-Stream/master.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Grand Lille TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Grand-Lille-TV.png",Grand Lille TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://str81.creacast.com/grandlilletv/high/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Grand-Littoral-TV.png",Grand Littoral TV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://live.creacast.com/grandlittoral/smil:grandlittoral.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="Alsace 20" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Alsace-20.png",Alsace 20
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://alsace20.live-kd.com/live/alsace20/ngrp:alsace20_all/playlist.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-id="ARD" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Das-Erste.png",Das Erste
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://mcdn.daserste.de/daserste/int/master.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Akaku-TV-1.png",Akaku TV 1
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch1/video.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Akaku-TV-2.png",Akaku TV 2
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch2/video.m3u8
+
+#EXTINF:-1 group-title="TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Akaku-TV-3.png",Akaku TV 3
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch3/video.m3u8
+
+
+# 📻 Radio stations
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/antena1.png",Rádio  Antena 1
+https://streaming-live.rtp.pt/liveradio/antena180a/playlist.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/antena2.png",Rádio  Antena 2
+https://streaming-live.rtp.pt/liveradio/antena280a/playlist.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/antena3.png",Rádio  Antena 3
+https://streaming-live.rtp.pt/liveradio/antena380a/playlist.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/97-400719141305.png",Antena 1 Açores
+https://streaming-live.rtp.pt/liveradio/antena1acores80a/playlist.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/98-590619141305.png",Antena 1 Madeira
+https://streaming-live.rtp.pt/liveradio/antena1madeira80a/playlist.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://media.rtp.pt/institucional/wp-content/uploads/sites/31/2015/07/rdpInternacional_positivo_horiz_RGB.png",Rádio RDP Internacional
+https://streaming-live.rtp.pt/liveradio/rdpint80a/playlist.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://media.rtp.pt/institucional/wp-content/uploads/sites/31/2015/07/rdpAfrica_positivo_horiz_RGB.png",Rádio RDP África
+https://streaming-live.rtp.pt/liveradio/rdpafrica80a/playlist.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/antena1vida.png",Antena 1 Vida
+https://streaming-live.rtp.pt/liveradio/vida80a/playlist.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/antena1memoria.png",Antena 1 Memória
+https://streaming-live.rtp.pt/liveradio/antena1memoria80a/playlist.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/radiolusitania.png",Rádio Lusitânia
+https://streaming-live.rtp.pt/liveradio/lusitania80a/playlist.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/antena1fado.png",Antena 1 Fado
+https://streaming-live.rtp.pt/liveradio/antena1fado80a/playlist.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/antena2jazzin.png",Antena 2 Jazzin'
+https://streaming-live.rtp.pt/liveradio/antena2jazzin80a/playlist.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/antena2opera.png",Antena 2 Opera
+https://streaming-live.rtp.pt/liveradio/antena2opera80a/playlist.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://www.amalia.fm/wp-content/uploads/2014/08/radioamalialogo.png",Rádio Amália
+http://link.radios.pt/amalia?1487014253471.mp3
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cidade.iol.pt/images/logo_CIDADE_2020.png",Rádio Cidade FM
+https://media1.mcr.iol.pt/livefm/cidade/livefm/cidade_128k/chunks.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cidade.iol.pt/images/logo_CIDADE_2020.png",Rádio Cidade Hip Hop
+https://media1.mcr.iol.pt/wrcidade/cidhiphop.stream/playlist.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cidade.iol.pt/images/logo_CIDADE_2020.png",Rádio Cidade Latina
+https://media1.mcr.iol.pt/wrcidade/cidlatina.stream/playlist.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://radiocomercial.iol.pt/images/logo_big.png",Rádio Comercial
+https://media1.mcr.iol.pt/livefm/comercial/livefm/comercial_128k/chunks.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cdn-profiles.tunein.com/s81784/images/logod.jpg",Rádio M80
+https://media1.mcr.iol.pt/livefm/m80/livefm/m80_128k/chunks.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://radiosdeportugal.com/wp-content/uploads/2007/07/logo_megafm_new.png",Rádio Mega Hits
+https://21313.live.streamtheworld.com/MEGA_HITSAAC
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cdn-profiles.tunein.com/s81786/images/logod.png?t=155740",Rádio MEO Music
+http://centova.radios.pt:8495/;listen.pls
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://www.radiot.fi/img/channel-logos/radio-nostalgia.png",Rádio Nostalgia
+http://centova.radios.pt:8435
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://www.radionovaera.pt/wp-content/uploads/2015/12/logo.png",Rádio Nova Era
+http://centova.radios.pt:9478/
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://observador.pt/wp-content/themes/observador-child/assets/build/img/apple-touch-icon.png",Rádio Observador
+https://playerservices.streamtheworld.com/api/livestream-redirect/OBSERVADOR_ADP.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cdn-profiles.tunein.com/s15270/images/logod.png",Rádio Orbital
+http://stream.radio.com.pt:8401/;stream/1
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://cdn-radiotime-logos.tunein.com/s83943q.png",Rádio Oxigénio
+https://proic1.evspt.com/oxigenio_aac
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cdn-profiles.tunein.com/s84192/images/logod.png",Rádio Radar
+https://proic1.evspt.com/radar_aac
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cdn-radiotime-logos.tunein.com/s25179d.png",Rádio Renascença
+https://25643.live.streamtheworld.com/RADIO_RENASCENCAAAC
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cdn-radiotime-logos.tunein.com/s18720d.png",Rádio RFM
+https://21313.live.streamtheworld.com/RFMAAC
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cdn-profiles.tunein.com/s16311/images/logod.png",Rádio SBSR
+https://centova.radios.pt/proxy/435?mp=/stream
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://dznmkb6al6kqz.cloudfront.net/sites/default/files/radio/logos/logo-smooth-fm_0.png",Rádio Smooth FM
+https://media1.mcr.iol.pt/livefm/smooth/livefm/smooth_128k/chunks.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://www.superfm.com/wp-content/uploads/2015/09/superfmlogo.png",Rádio Super FM
+http://95.217.75.38:9962/;&13202692901&duration=99999&id=scplayer&autostart=true
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://www.tsf.pt/common/images/logo-tsf.png",Rádio TSF
+http://tsfdirecto.tsf.pt/tsfdirecto.mp3
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://www.meiosepublicidade.pt/wp-content/uploads/2012/02/vodafone_logo-certo1.jpg",Vodafone.FM
+https://media1.mcr.iol.pt/livefm/vodafone/livefm/vodafone_128k/chunks.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://www.radiomiudos.pt/img/logo2.png",Rádio Miúdos
+http://radiomiudos.out.airtime.pro:8000/radiomiudos_a
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://media.rtp.pt/refresca/wp-content/themes/refresca/includes/img/logo_RadioZigZag.png",Rádio Zig Zag
+https://streaming-live.rtp.pt/liveradio/zigzag80a/playlist.m3u8
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://www.liveonlineradio.net/wp-content/uploads/2014/02/Radio-Cascais.jpg",Rádio Cascais
+http://5.9.14.150:9300/;
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://www.radiocastelobranco.pt/css/site/img/logo.png",Rádio Castelo Branco
+http://centova.radio.com.pt:9462/;
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://www.radioclube-penafiel.pt/i/logo_radioclubepenafiel.png",Rádio Clube Penafiel
+http://centova.radios.pt:9476/;
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://www.jm-madeira.pt/dist/images/JM_logo-01.png",JM Madeira
+http://194.38.136.130:8000/?type=http
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://www.hiper.fm/images/hiper_logo_red.png",Hiper FM
+http://85.25.73.243:10460/;stream/1
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://radiohertz.pt/wp-content/uploads/2015/03/Logo-R%C3%A1dio-Hertz-2015-03-261-300x117.png",Rádio Hertz
+http://213.136.92.8:8030/stream
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://www.radiolinear.pt/img/logo.png",Rádio Linear
+http://213.136.92.8:8022/;
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://www.marcoensefm.com/wp-content/themes/marcoense-fm/images/logo.png",Marcoense FM
+http://137.74.160.250:8000/;stream/1
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://i.imgur.com/tHi5ewx.png",Rádio Monsanto
+http://centova.radio.com.pt:9424/;
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://www.radio.net/images/broadcasts/79/00/29566/1/c300.png",Rádio Montemuro
+http://46.105.172.166:9304/;audio.mp3
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://radionoar.pt/wp-content/uploads/2017/02/Radio-NoAr_156.png",Rádio NoAr
+http://centova.radio.com.pt:9472/;
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://nove3cinco.pt/sv/wp-content/uploads/2015/05/Nove3Cinco-Menu-Logo.png",Nove3Cinco
+http://centova.radios.pt:9522/;
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://www.apradiodifusao.pt/xiiicongresso/images/radios/radioportalegre.png",Rádio Portalegre
+http://centova.radios.pt:9492/stream
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://radioportuense.com/wp-content/uploads/2017/01/oie_dUXe4SR8xHI0.png",Rádio Portuense
+http://88.198.72.46:9848/;
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://i.imgur.com/0vmzhdz.png",Rádio Regional
+http://streaming.radioregional.pt:8002
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://i.imgur.com/0vmzhdz.png",Rádio Regional [Alternativa]
+http://streaming.radioregional.pt:8000
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://i.imgur.com/tKrKYOR.png",Rádio Regional Rock
+http://streaming.radioregional.pt:8046
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://i.imgur.com/hUrEKgu.png",Rádio Regional Dance & DJS
+http://streaming.radioregional.pt:8064
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://i.imgur.com/aPZ5joL.png",Rádio Regional Love Songs
+http://streaming.radioregional.pt:8058
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://i.imgur.com/1zntJ9S.png",Rádio Regional Oldies
+http://streaming.radioregional.pt:8052
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://i.imgur.com/x48qEMX.png",Rádio Regional Portuguesa
+http://streaming.radioregional.pt:8040
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://www.radioregionaldearouca.com/site/wp-content/uploads/2015/06/logo-radio1.png",Rádio Regional Arouca
+http://centova.radio.com.pt:8485/;
+
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://radiosines.sapo.pt/assets/dist/img/logo.png",Rádio Sines
+https://ssl.evsportugal.net:7166/stream
 
-#EXTINF:-1 tvg-id="rtp1.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/rtysxv1466191624.png/medium",RTP 1 SD
-http://rtp-pull-wrtp-live.hls.adaptive.level3.net/liverepeater/smil:rtp1.smil/KodiPortugal.pt.m3u8|User-Agent=AppleCoreMedia/1.0.0.13A452 (iPhone; U; CPU OS 9_0_2 like Mac OS X; en_gb)
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://www.terranova.pt/sites/default/files/logotipoterranova.png",Rádio Terra Nova
+http://centova.radios.pt:9404/stream
 
-#EXTINF:-1 tvg-id="rtp1.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/rtysxv1466191624.png/medium",RTP 1 SD [Alternativa]
-rtmp://rtppullswf2livefs.fplive.net/rtppullswf2live-live playpath=2ch5h264 swfUrl=http://programas.rtp.pt/play/player.swf?v3 pageUrl=http://kodiportugal.pt swfVfy=1 live=1 timeout=15
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://bucket-backblaze.ruc.pt/file/bucket-ruc-pt/wp-content/uploads/2021/02/15233926/Logo-RUC-2020_assinaturas_Prancheta-1-copia.png",Rádio Universitária de Coimbra
+https://stream.ruc.pt/high
 
-#EXTINF:-1 tvg-id="rtp2.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/yvttxv1466191438.png/medium",RTP 2 SD
-http://rtp-pull-wrtp-live.hls.adaptive.level3.net/liverepeater/smil:rtp2.smil/KodiPortugal.pt.m3u8|User-Agent=AppleCoreMedia/1.0.0.13A452 (iPhone; U; CPU OS 9_0_2 like Mac OS X; en_gb)
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cdn-radiotime-logos.tunein.com/s3095d.png",Rádio Universitária do Minho
+https://centova.radio.com.pt/proxy/558?mp=/stream
 
-#EXTINF:-1 tvg-id="rtp2.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/yvttxv1466191438.png/medium",RTP 2 SD [Alternativa]
-rtmp://rtppullswf2livefs.fplive.net/rtppullswf2live-live playpath=2ch3h264 swfUrl=http://programas.rtp.pt/play/player.swf?v3 pageUrl=http://kodiportugal.pt swfVfy=1 live=1 timeout=15
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="http://www.radiovaledominho.com/wp-content/uploads/2017/09/logo_rvm-01.png",Rádio Vale do Minho
+http://centova.radio.com.pt:9434/;
 
-#EXTINF:-1 tvg-id="sic.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/uqqyxw1436843634.png/medium",SIC SD
-http://live.impresa.pt/live/sic/sic540p.m3u8
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://www.radio.pt/images/broadcasts/c5/77/38212/1/c300.png",Rádio Quântica
+https://stream.radioquantica.com:8443/stream
 
-#EXTINF:-1 tvg-id="sic.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/uqqyxw1436843634.png/medium",SIC SD [Alternativa]
-http://live.impresa.pt/live/sic/sic.m3u8
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cdn-profiles.tunein.com/s47489/images/logod.png",Rádio Zero
+https://stream.radiozero.pt/zero128.mp3
 
-#EXTINF:-1 tvg-id="TVI.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/qwwusv1434076725.png/medium",TVI SD
-http://video-live.iol.pt:1935/live_tvi/smil:LIVE_TVI/KodiPortugal.pt.m3u8
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cdn-profiles.tunein.com/s95144/images/logod.png",Venice Classic Radio - Auditorium
+https://uk2.streamingpulse.com/ssl/vcr1
 
-#EXTINF:-1 tvg-id="TVI.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/qwwusv1434076725.png/medium",TVI SD [Alternativa]
-http://video-live.iol.pt:1935/live_tvi/LIVE_TVI-1/KodiPortugal.pt.m3u8
+#EXTINF:-1 radio="true" group-title="Rádios" tvg-logo="https://cdn-profiles.tunein.com/s95144/images/logod.png",Venice Classic Radio - Live
+https://uk2.streamingpulse.com/ssl/vcr2
 
-#EXTINF:-1 tvg-id="sicnoticias.pt" tvg-logo="https://www.thelogodb.com/images/media/logo/rswvxv1433344605.png/medium",SIC NOTÍCIAS SD
-http://live.impresa.pt/live/sicnot/sicnot540p.m3u8
+# Praias Norte
 
-#EXTINF:-1 tvg-id="sicnoticias.pt" tvg-logo="https://www.thelogodb.com/images/media/logo/rswvxv1433344605.png/medium",SIC NOTÍCIAS SD [Alternativa]
-http://live.impresa.pt/live/sicnot/sicnot.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Vila Praia de Âncora
+https://video-auth1.iol.pt/beachcam/bcvilapraiadeancora/playlist.m3u8
 
-#EXTINF:-1 tvg-id="rtpn.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/uvtqyy1461670745.png/medium",RTP3 SD
-http://rtp-pull-wrtp-live.hls.adaptive.level3.net/liverepeater/smil:rtpn.smil/KodiPortugal.pt.m3u8|User-Agent=AppleCoreMedia/1.0.0.13A452 (iPhone; U; CPU OS 9_0_2 like Mac OS X; en_gb)
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Ofir
+https://video-auth1.iol.pt/beachcam/bcofir/playlist.m3u8
 
-#EXTINF:-1 tvg-id="rtpn.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/uvtqyy1461670745.png/medium",RTP3 SD [Alternativa]
-rtmp://rtppullswf2livefs.fplive.net/rtppullswf2live-live playpath=2ch64h264 swfUrl=http://programas.rtp.pt/play/player.swf?v3  pageUrl=http://kodiportugal.pt swfVfy=1 live=1 timeout=15
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Leça da Palmeira
+https://video-auth1.iol.pt/beachcam/lecadapalmeira/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TVI24.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/wtysqy1436898428.png/medium",TVI24 SD
-http://video-live.iol.pt:1935/live_tvi24/smil:LIVE_TVI24/KodiPortugal.pt.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Matosinhos
+https://video-auth1.iol.pt/beachcam/matosinhos/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TVI24.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/wtysqy1436898428.png/medium",TVI24 SD [Alternativa]
-http://video-live.iol.pt:1935/live_tvi24/LIVE_TVI24-1/KodiPortugal.pt.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Porto - Homem do Leme
+https://video-auth1.iol.pt/beachcam/bchomemdoleme/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Euronews.nws" tvg-logo="http://www.thelogodb.com/images/media/logo/tuuryw1433426397.png/medium",EURONEWS PT SD
-rtsp://ewns-hls-b-stream.hexaglobe.net/rtpeuronewslive/pt_vidan750_rtp.sdp
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Porto - Carneiro
+https://video-auth1.iol.pt/beachcam/bccarneiro/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PortoCanal.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/yuxppt1465900144.png/medium",PORTO CANAL HD
-http://213.13.26.11:1935/live/portocanal/KodiPortugal.pt.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia Canide Norte - Sul
+https://video-auth1.iol.pt/beachcam/bccanidelo/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PortoCanal.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/yuxppt1465900144.png/medium",PORTO CANAL HD [Alternativa]
-http://213.13.26.13:1935/live/portocanal/KodiPortugal.pt.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Espinho
+https://video-auth1.iol.pt/beachcam/espinho/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PortoCanal.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/yuxppt1465900144.png/medium",PORTO CANAL HD [Alternativa]
-http://213.13.26.41:1935/live/portocanal/KodiPortugal.pt.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Esmoriz
+https://video-auth1.iol.pt/beachcam/esmoriz/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PortoCanal.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/yuxppt1465900144.png/medium",PORTO CANAL HD [Alternativa]
-rtsp://213.13.26.11:1935/live/portocanal
 
-#EXTINF:-1 tvg-id="PortoCanal.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/yuxppt1465900144.png/medium",PORTO CANAL HD [Alternativa]
-rtsp://213.13.26.13:1935/live/portocanal
+# Praias Centro
 
-#EXTINF:-1 tvg-id="PortoCanal.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/yuxppt1465900144.png/medium",PORTO CANAL HD [Alternativa]
-rtsp://213.13.26.41:1935/live/portocanal
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Furadouro
+https://video-auth1.iol.pt/beachcam/furadouro/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PortoCanal.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/yuxppt1465900144.png/medium",PORTO CANAL HD [Alternativa]
-rtmp://213.13.26.11/live playpath=portocanal swfUrl=http://imgs.sapo.pt/sapovideo/swf/flvplayer-sapo.swf?v11 pageUrl=http://kodiportugal.pt
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia da Torreira
+https://video-auth1.iol.pt/beachcam/torreira/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PortoCanal.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/yuxppt1465900144.png/medium",PORTO CANAL HD [Alternativa]
-rtmp://213.13.26.13/live playpath=portocanal swfUrl=http://imgs.sapo.pt/sapovideo/swf/flvplayer-sapo.swf?v11 pageUrl=http://kodiportugal.pt
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia da Barra
+https://video-auth1.iol.pt/beachcam/aveiro/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PortoCanal.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/yuxppt1465900144.png/medium",PORTO CANAL HD [Alternativa]
-rtmp://213.13.26.41/live playpath=portocanal swfUrl=http://imgs.sapo.pt/sapovideo/swf/flvplayer-sapo.swf?v11 pageUrl=http://kodiportugal.pt
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Costa Nova
+https://video-auth1.iol.pt/beachcam/costanova/playlist.m3u8
 
-#EXTINF:-1 tvg-id="RTPAcores.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/uwrwtq1438186288.png/medium",RTP AÇORES SD
-http://rtp-pull-wrtp-live.hls.adaptive.level3.net/liverepeater/smil:rtpacores.smil/KodiPortugal.pt.m3u8|User-Agent=AppleCoreMedia/1.0.0.13A452 (iPhone; U; CPU OS 9_0_2 like Mac OS X; en_gb)
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Vagueira - Casablanca
+https://video-auth1.iol.pt/beachcam/vagueiracasablanca/playlist.m3u8
 
-#EXTINF:-1 tvg-id="RTPAcores.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/uwrwtq1438186288.png/medium",RTP AÇORES SD [Alternativa]
-rtmp://rtppullswf2livefs.fplive.net/rtppullswf2live-live playpath=2rtpacores swfUrl=http://programas.rtp.pt/play/player.swf?v3  pageUrl=http://kodiportugal.pt swfVfy=1 live=1 timeout=15
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Vagueira - Labrego
+https://video-auth1.iol.pt/beachcam/vagueira/playlist.m3u8
 
-#EXTINF:-1 tvg-id="RTPAfrica.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/ysvppt1438186219.png/medium",RTP ÁFRICA SD
-http://rtp-pull-wrtp-live.hls.adaptive.level3.net/liverepeater/smil:rtpafrica.smil/KodiPortugal.pt.m3u8|User-Agent=AppleCoreMedia/1.0.0.13A452 (iPhone; U; CPU OS 9_0_2 like Mac OS X; en_gb)
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia de Mira
+https://video-auth1.iol.pt/beachcam/bcmira/playlist.m3u8
 
-#EXTINF:-1 tvg-id="RTPAfrica.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/ysvppt1438186219.png/medium",RTP ÁFRICA SD [Alternativa]
-rtmp://rtppullswf2livefs.fplive.net/rtppullswf2live-live playpath=2ch27h264 swfUrl=http://programas.rtp.pt/play/player.swf?v3  pageUrl=http://www.rtp.pt/play/direto/rtpafrica?mag swfVfy=1 live=1 timeout=15
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia da Tocha
+https://video-auth1.iol.pt/beachcam/tocha/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="http://img0.rtp.pt/EPG/imgth/phpThumb.php?src=/common/img/channels/logos/gray-negative/vertical/rtparena.png&w=250&q=100&f=png",RTP ARENA HD
-http://rtp-pull-wrtp-live.hls.adaptive.level3.net/liverepeater/smil:especiaiscam2015.smil/KodiPortugal.pt.m3u8|User-Agent=AppleCoreMedia/1.0.0.13A452 (iPhone; U; CPU OS 9_0_2 like Mac OS X; en_gb)
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Figueira da Foz
+https://video-auth1.iol.pt/beachcam/figueiradafoz/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="http://img0.rtp.pt/EPG/imgth/phpThumb.php?src=/common/img/channels/logos/gray-negative/vertical/rtparena.png&w=250&q=100&f=png",RTP ARENA HD [Alternativa]
-rtmp://rtppullswf2livefs.fplive.net/rtppullswf2live-live playpath=especiaiscam2015 swfUrl=http://programas.rtp.pt/play/player.swf?v3  pageUrl=http://kodiportugal.pt swfVfy=1 live=1 timeout=15
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Figueira da Foz - Buarcos
+https://video-auth1.iol.pt/beachcam/bcfigueiradois/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="http://www.thelogodb.com/images/media/logo/xwquyw1438185975.png/medium",RTP INTERNACIONAL SD
-http://rtp-pull-wrtp-live.hls.adaptive.level3.net/liverepeater/smil:rtpi.smil/KodiPortugal.pt.m3u8|User-Agent=AppleCoreMedia/1.0.0.13A452 (iPhone; U; CPU OS 9_0_2 like Mac OS X; en_gb)
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Figueira da Foz - Cabedelo
+https://video-auth1.iol.pt/beachcam/cabedelo/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="http://www.thelogodb.com/images/media/logo/xwquyw1438185975.png/medium",RTP INTERNACIONAL SD [Alternativa]
-rtmp://rtppullswf2livefs.fplive.net/rtppullswf2live-live playpath=2ch120h264 swfUrl=http://programas.rtp.pt/play/player.swf?v3  pageUrl=http://kodiportugal.pt swfVfy=1 live=1 timeout=15
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia Osso da Baleia
+https://video-auth1.iol.pt/beachcam/ossodabaleia/playlist.m3u8
 
-#EXTINF:-1 tvg-id="RTPMadeira.pt"tvg-logo="http://www.thelogodb.com/images/media/logo/uqsxxr1438186346.png/medium",RTP MADEIRA SD
-http://rtp-pull-wrtp-live.hls.adaptive.level3.net/liverepeater/smil:rtpmadeira.smil/KodiPortugal.pt.m3u8|User-Agent=AppleCoreMedia/1.0.0.13A452 (iPhone; U; CPU OS 9_0_2 like Mac OS X; en_gb)
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia do Pedrógão
+https://video-auth1.iol.pt/beachcam/praiapedrogao/playlist.m3u8
 
-#EXTINF:-1 tvg-id="RTPMadeira.pt"tvg-logo="http://www.thelogodb.com/images/media/logo/uqsxxr1438186346.png/medium",RTP MADEIRA SD [Alternativa]
-rtmp://rtppullswf2livefs.fplive.net/rtppullswf2live-live playpath=2ch1016h264H14 swfUrl=http://programas.rtp.pt/play/player.swf?v3  pageUrl=http://kodiportugal.pt swfVfy=1 live=1 timeout=15
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia da Vieira
+https://video-auth1.iol.pt/beachcam/bcvieira/playlist.m3u8
 
-#EXTINF:-1 tvg-id="rtpmemoria.pt"tvg-logo="http://www.thelogodb.com/images/media/logo/ysyyxw1438185870.png/medium",RTP MEMÓRIA SD
-http://rtp-pull-wrtp-live.hls.adaptive.level3.net/liverepeater/smil:rtpmem.smil/KodiPortugal.pt.m3u8|User-Agent=AppleCoreMedia/1.0.0.13A452 (iPhone; U; CPU OS 9_0_2 like Mac OS X; en_gb)
 
-#EXTINF:-1 tvg-id="rtpmemoria.pt"tvg-logo="http://www.thelogodb.com/images/media/logo/ysyyxw1438185870.png/medium",RTP MEMÓRIA SD [Alternativa]
-rtmp://rtppullswf2livefs.fplive.net/rtppullswf2live-live playpath=2ch80h264 swfUrl=http://www.rtp.pt/play/player.swf?v3 live=1 pageUrl=http://kodiportugal.pt swfVfy=1 live=1 timeout=15
+# Praias Costa Oeste
 
-#EXTINF:-1 tvg-id="TCV" tvg-logo="http://www.thelogodb.com/images/media/logo/squwqv1438186600.png/medium",TCV SD
-http://213.13.26.11:1935/live/rtc_teste/KodiPortugal.pt.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Nazaré - Forte S. Miguel Arcanjo
+https://video-auth1.iol.pt/beachcam/bcarcanjo3/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TCV" tvg-logo="http://www.thelogodb.com/images/media/logo/squwqv1438186600.png/medium",TCV SD [Alternativa]
-http://213.13.26.13:1935/live/rtc_teste/KodiPortugal.pt.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Nazaré - Forte S. Miguel Arcanjo Panorâmica
+https://video-auth1.iol.pt/beachcam/bcarcanjo2/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TCV" tvg-logo="http://www.thelogodb.com/images/media/logo/squwqv1438186600.png/medium",TCV SD [Alternativa]
-http://213.13.26.41:1935/live/rtc_teste/KodiPortugal.pt.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Nazaré - Forte S. Miguel Arcanjo - Baía
+https://video-auth1.iol.pt/beachcam/bcarcanjo1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TCV" tvg-logo="http://www.thelogodb.com/images/media/logo/squwqv1438186600.png/medium",TCV SD [Alternativa]
-rtsp://213.13.26.11:1935/live/rtc_teste
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Nazaré - Praia do Norte
+https://video-auth1.iol.pt/beachcam/canhaonazare/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TCV" tvg-logo="http://www.thelogodb.com/images/media/logo/squwqv1438186600.png/medium",TCV SD [Alternativa]
-rtsp://213.13.26.13:1935/live/rtc_teste
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Nazaré - Praia do Norte panorâmica
+https://video-auth1.iol.pt/beachcam/nazareparadonorte/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TCV" tvg-logo="http://www.thelogodb.com/images/media/logo/squwqv1438186600.png/medium",TCV SD [Alternativa]
-rtsp://213.13.26.41:1935/live/rtc_teste
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Nazaré - Praia da Vila
+https://video-auth1.iol.pt/beachcam/nazarepraiadavila/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TCV" tvg-logo="http://www.thelogodb.com/images/media/logo/squwqv1438186600.png/medium",TCV SD [Alternativa]
-rtmp://213.13.26.11/live playpath=rtc_teste swfUrl=http://imgs.sapo.pt/sapovideo/swf/flvplayer-sapo.swf?v11 pageUrl=http://kodiportugal.pt
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Nazaré - Porto de Abrigo
+https://video-auth1.iol.pt/beachcam/bcportodeabrigo/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TCV" tvg-logo="http://www.thelogodb.com/images/media/logo/squwqv1438186600.png/medium",TCV SD [Alternativa]
-rtmp://213.13.26.13/live playpath=rtc_teste swfUrl=http://imgs.sapo.pt/sapovideo/swf/flvplayer-sapo.swf?v11 pageUrl=http://kodiportugal.pt
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Foz do Arelho
+https://video-auth1.iol.pt/beachcam/bcfozdoarelho/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TCV" tvg-logo="http://www.thelogodb.com/images/media/logo/squwqv1438186600.png/medium",TCV SD [Alternativa]
-rtmp://213.13.26.41/live playpath=rtc_teste swfUrl=http://imgs.sapo.pt/sapovideo/swf/flvplayer-sapo.swf?v11 pageUrl=http://kodiportugal.pt
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Peniche - Lagide
+https://video-auth1.iol.pt/beachcam/lagide/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ARTV.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/xvswvy1437956693.png/medium",CANAL PARLAMENTO SD
-http://193.126.16.68:1935/livenlin4/mp4:2liveartvpub/playlist.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Peniche - Supertubos
+https://video-auth1.iol.pt/beachcam/supertubos/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ARTV.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/xvswvy1437956693.png/medium",CANAL PARLAMENTO SD [Alternativa]
-rtmp://193.126.16.68:1935/livenlin4?ovpfv=2.1.2 playpath=mp4:2liveartvpub swfUrl=http://canal.parlamento.pt/embed/arplayer.swf pageUrl=http://kodiportugal.pt
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Areia Branca
+https://video-auth1.iol.pt/beachcam/bcareiabranca/playlist.m3u8
 
-#EXTINF:-1 tvg-id="CancaoNova.PT" "tvg-logo="http://www.cancaonova.pt/wp-content/uploads/2015/11/logo_cnok.png",CANÇÃO NOVA SD
-http://cancaonova-push-live.hls.adaptive.level3.net/hls-live/cancaonova-channel01/_definst_/live/stream1.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia de Santa Rita
+https://video-auth1.iol.pt/beachcam/vimeiro/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://s3.amazonaws.com/pt-bm-images/company_images/2692/logo/2692_logo_original.png",SANTUÁRIO DE FÁTIMA HD
-http://213.13.26.11:1935/live/santuario.stream/KodiPortugal.pt.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Santa Cruz
+https://video-auth1.iol.pt/beachcam/santacruz/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.googleusercontent.com/-UnK39Ro_n8w/Vcn2Fq2_yKI/AAAAAAAAACk/z14TsFRKmXY/w426-h427/ISSTracker_v4a.png",LIVE ISS STREAM HD
-http://d2ai41bknpka2u.cloudfront.net/live/iss.stream_source/chunklist.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Santa Cruz - Praia Azul
+https://video-auth1.iol.pt/beachcam/bcpraiaazul/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",LEÇA DA PALMEIRA SD
-http://video-auth1.iol.pt:1935/beachcam/lecadapalmeira/chunks.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",MATOSINHOS SD
-http://video-auth1.iol.pt:1935/beachcam/matosinhos/chunks.m3u8
+# Praias Mafra
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",ESPINHO SD
-http://video-auth1.iol.pt:1935/beachcam/espinho/chunks.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia da Calada
+https://video-auth1.iol.pt/beachcam/praiadacalada/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",ESMORIZ SD
-http://video-auth1.iol.pt:1935/beachcam/esmoriz/chunks.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Ribeira D'Ilhas
+https://video-auth1.iol.pt/beachcam/ribeiradilhas/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",FURADOURO SD
-http://video-auth1.iol.pt:1935/beachcam/furadouro/chunks.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Ericeira
+https://video-auth1.iol.pt/beachcam/ericeiraspots/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",TORREIRA SD
-http://video-auth1.iol.pt:1935/beachcam/torreira/chunks.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Matadouro + SkatePark
+https://video-auth1.iol.pt/beachcam/matadouroskatepark/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",BARRA SD
-http://video-auth1.iol.pt:1935/beachcam/aveiro/chunks.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia dos Pescadores
+https://video-auth1.iol.pt/beachcam/bcpescadores/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",VAGUEIRA SD
-http://video-auth1.iol.pt:1935/beachcam/vagueira/chunks.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Ericeira - Praia do Sul
+https://video-auth1.iol.pt/beachcam/praiadosulericeira/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",MIRA SD
-http://video-auth1.iol.pt:1935/beachcam/bcmira/chunks.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Foz do Lizandro
+https://video-auth1.iol.pt/beachcam/fozdolizandro/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",BUARCOS SD
-http://video-auth1.iol.pt:1935/beachcam/figueiradafoz/chunks.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",NAZARÉ SD
-http://video-auth1.iol.pt:1935/beachcam/nazareparadonorte/chunks.m3u8
+# Praias de Sintra
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",SUPERTUBOS SD
-http://video-auth1.iol.pt:1935/beachcam/supertubos/chunks.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia das Maçãs
+https://video-auth1.iol.pt/beachcam/praiadasmacas/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",LAGIDE SD
-http://video-auth1.iol.pt:1935/beachcam/lagide/chunks.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia Grande - Norte
+https://video-auth1.iol.pt/beachcam/praiagrande/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",SANTA CRUZ SD
-http://video-auth1.iol.pt:1935/beachcam/santacruz/chunks.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia Grande - Sul
+https://video-auth1.iol.pt/beachcam/praiagrande2/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",RIBEIRA D´ ILHAS SD
-http://video-auth1.iol.pt:1935/beachcam/ribeiradilhas/chunks.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",ERICEIRA SD
-http://video-auth1.iol.pt:1935/beachcam/ericeiraspots/chunks.m3u8
+# Praias Cascais
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",GRANDE
-http://video-auth1.iol.pt:1935/beachcam/praiagrande/chunks.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia do Guincho - Norte
+https://video-auth1.iol.pt/beachcam/praiaguinchonorte/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",GUINCHO NORTE
-http://video-auth1.iol.pt:1935/beachcam/praiaguinchonorte/chunks.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia do Guincho - Sul
+https://video-auth1.iol.pt/beachcam/praiaguinchosul/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",GUINCHO SUL
-http://video-auth1.iol.pt:1935/beachcam/praiaguinchosul/chunks.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia da Cresmina
+https://video-auth1.iol.pt/beachcam/crismina/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",S.PEDRO ESTORIL
-http://video-auth1.iol.pt:1935/beachcam/saopedroestoria/chunks.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia do Guincho - Sul
+https://video-auth1.iol.pt/beachcam/praiaguinchosul/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",CARCAVELOS
-http://video-auth1.iol.pt:1935/beachcam/carcavelos/chunks.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Baía de Cascais
+https://video-auth1.iol.pt/beachcam/praiadospescadores/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",CAPARICA CDS
-http://video-auth1.iol.pt:1935/beachcam/costacaparicacds/chunks.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia da Conceição e Duquesa
+https://video-auth1.iol.pt/beachcam/conceicao/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",CAPARICA S.JOÃO
-http://video-auth1.iol.pt:1935/beachcam/costacaparicasaojoao/chunks.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia das Moitas
+https://video-auth1.iol.pt/beachcam/moitas/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",FONTE DA TELHA
-http://video-auth1.iol.pt:1935/beachcam/fontedatelha/chunks.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Tamariz
+https://video-auth1.iol.pt/beachcam/tamariz/playlist.m3u8
 
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",CARVALHAL
-http://video-auth1.iol.pt:1935/beachcam/carvalhal/chunks.m3u8
-
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",S. TORPES
-http://video-auth1.iol.pt:1935/beachcam/saotorpes/chunks.m3u8
-
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",ZAMBUJEIRA
-http://video-auth1.iol.pt:1935/beachcam/zambujeira/chunks.m3u8
-
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",AMOREIRA
-http://video-auth1.iol.pt:1935/beachcam/bcamoreira/chunks.m3u8
-
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",ARRIFANA
-http://video-auth1.iol.pt:1935/beachcam/arrifana/chunks.m3u8
-
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",PRAIA DA LUZ
-http://video-auth1.iol.pt:1935/beachcam/luz/chunks.m3u8
-
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",MEIA PRAIA
-http://video-auth1.iol.pt:1935/beachcam/meiapraia/chunks.m3u8
-
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",ALVOR
-http://video-auth1.iol.pt:1935/beachcam/alvor/chunks.m3u8
-
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",PRAIA DA ROCHA
-http://video-auth1.iol.pt:1935/beachcam/praiadarocha/chunks.m3u8
-
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",PRAIA DA GALÉ
-http://video-auth1.iol.pt:1935/beachcam/bcgale/chunks.m3u8
-
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",EVARISTO
-http://video-auth1.iol.pt:1935/beachcam/evaristo/chunks.m3u8
-
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",VILAMOURA
-http://video-auth1.iol.pt:1935/beachcam/vilamoura/chunks.m3u8
-
-#EXTINF:-1 tvg-id="n/a" tvg-logo="https://lh3.ggpht.com/8tnOYXzdw0CafgPm16z5PgbM7mfhWo24WiJVnKYjnEmUMp-sJYu3XJPh0agflb7y2e4=w300",JARDIM DO MAR
-http://video-auth1.iol.pt:1935/beachcam/madeirajardimdomar/chunks.m3u8
- 
-#EXTINF:-1 tvg-logo="http://i.imgur.com/KbRXwLr.png",[B][COLOR skyblue]AGENDA DAS TRANSMISSOES TELEVISIVAS[/B][/COLOR]   
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/AxHsgKI.jpg",[B][COLOR skyblue]MOTOGP 2016[/B][/COLOR]   
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/FIdcBIN.jpg",[B][COLOR skyblue]MONSTER ENERGY GP DE FRANCE  [/B][/COLOR] 
-http://0.0.0.0:1234   
-#EXTINF:-1,[B][COLOR white]--------------------------------------------------[/B][/COLOR]   
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/MgPvryf.jpg",[B][COLOR gold]06.05 / 08h00 MOTO3 - FP1  [/B][/COLOR]
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/MgPvryf.jpg",[B][COLOR gold]06.05 / 08h55 MOTOGP - FP1  [/B][/COLOR]
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/MgPvryf.jpg",[B][COLOR gold]06.05 / 09h55 MOTO2 - FP1  [/B][/COLOR]
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/MgPvryf.jpg",[B][COLOR gold]06.05 / 12h10 MOTO3 - FP2  [/B][/COLOR]
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/MgPvryf.jpg",[B][COLOR gold]06.05 / 13h05 MOTOGP - FP2  [/B][/COLOR]
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/MgPvryf.jpg",[B][COLOR gold]06.05 / 14h05 MOTO2 - FP2  [/B][/COLOR]
-http://0.0.0.0:1234   
-#EXTINF:-1,[B][COLOR white]--------------------------------------------------[/B][/COLOR]   
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/MgPvryf.jpg",[B][COLOR gold]07.05 / 08h00 MOTO3 - FP3  [/B][/COLOR]
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/MgPvryf.jpg",[B][COLOR gold]07.05 / 08h55 MOTOGP - FP3  [/B][/COLOR]
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/MgPvryf.jpg",[B][COLOR gold]07.05 / 09h55 MOTO2 - FP3  [/B][/COLOR]
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/MgPvryf.jpg",[B][COLOR gold]07.05 / 11h35 MOTO3 - QP  [/B][/COLOR]
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/MgPvryf.jpg",[B][COLOR gold]07.05 / 12h30 MOTOGP - FP4  [/B][/COLOR]
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/MgPvryf.jpg",[B][COLOR gold]07.05 / 13h10 MOTOGP - Q1  [/B][/COLOR]
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/MgPvryf.jpg",[B][COLOR gold]07.05 / 13h35 MOTOGP - Q2  [/B][/COLOR]
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/MgPvryf.jpg",[B][COLOR gold]07.05 / 14h05 MOTO2 - QP  [/B][/COLOR]
-http://0.0.0.0:1234   
-#EXTINF:-1,[B][COLOR white]--------------------------------------------------[/B][/COLOR]   
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/MgPvryf.jpg",[B][COLOR gold]05.05 / 07h40 MOTO3-MOTO2-MOTOGP - WUP  [/B][/COLOR]
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/MgPvryf.jpg",[B][COLOR gold]05.05 / 10h00 MOTO3 - RAC  [/B][/COLOR]
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/MgPvryf.jpg",[B][COLOR gold]05.05 / 11h20 MOTO2 - RAC  [/B][/COLOR]
-http://0.0.0.0:1234   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/MgPvryf.jpg",[B][COLOR gold]05.05 / 13h00 MOTOGP - RAC  [/B][/COLOR]
-http://0.0.0.0:1234   
-#EXTINF:-1,[B][COLOR white]--------------------------------------------------[/B][/COLOR]   
-http://0.0.0.0:1234   
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",São João do Estoril
+https://video-auth1.iol.pt/beachcam/saojoaodoestoril/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="http://i.imgur.com/vcfu9M3.png",[B][COLOR red]CANAIS DISPONIVEIS  [/B][/COLOR] 
-http://0.0.0.0:1234   
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",São Pedro do Estoril
+http://video-auth1.iol.pt:1935/beachcam/saopedroestoria/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="http://i.imgur.com/J18GoWA.png",[B][COLOR lawngreen]•[/B][/COLOR] INT [B][COLOR [B][COLOR white] ARENAVISION 11 [/B][/COLOR]  [B][COLOR blue][SD] [/B][/COLOR][B][COLOR red](Plexus)[/B][/COLOR]
-plugin://program.plexus/?mode=1&url=acestream://df58492e734e39d68b54ea6a8104ac0642103bd5&mode=1&name=acestream&mode=1&name=SPORTS   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/xnpnMLa.png",[B][COLOR lawngreen]•[/B][/COLOR] INT [B][COLOR [B][COLOR white] ARENAVISION 12 [/B][/COLOR]  [B][COLOR blue][SD] [/B][/COLOR][B][COLOR red](Plexus)[/B][/COLOR]
-plugin://program.plexus/?mode=1&url=acestream://f106c58fcb72d1a21e7a500cdf339321744e290f&mode=1&name=acestream&mode=1&name=SPORTS   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/QLKzBRu.png",[B][COLOR lawngreen]•[/B][/COLOR] UK [B][COLOR [B][COLOR white] BT SPORT 2 [/B][/COLOR]  [B][COLOR blue][SD] [/B][/COLOR][B][COLOR red](http)[/B][/COLOR]
-rtmp://185.63.252.221:1935/liveedge/?wmsAuthSign=c2VydmVyX3RpbWU9NS8xLzIwMTYgMTA6MzM6NTkgQU0maGFzaF92YWx1ZT1NeVQ3RTRwMFo3OVgzSWtLTkgxM3NBPT0mdmFsaWRtaW51dGVzPTEw/ibrodtv27_8hps6ods swfUrl=http://otronivel.me/jw7/jwplayer.flash.swf flashver=WIN\2021,0,0,182 timeout=15 live=true swfVfy=1 pageUrl=http://miplayer.net/embedplayer.php?width=640&height=480&id=ibrodtv27&autoplay=true&strech=exactfit   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/N6wrADg.png",[B][COLOR lawngreen]•[/B][/COLOR] RO [B][COLOR [B][COLOR white] DIGISPORT 1 [/B][/COLOR]  [B][COLOR blue][SD] [/B][/COLOR][B][COLOR red](Plexus)[/B][/COLOR]
-plugin://program.plexus/?mode=1&url=acestream://587b978995d900afc17d4a5c3ef13797d2b3a0ec&mode=1&name=acestream&mode=1&name=SPORTS   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/x4rGg3q.png",[B][COLOR lawngreen]•[/B][/COLOR] UK [B][COLOR [B][COLOR white] MOTORSPORT [/B][/COLOR]  [B][COLOR green][HD] [/B][/COLOR][B][COLOR red](Plexus)[/B][/COLOR]
-plugin://program.plexus/?mode=1&url=acestream://c8b03380b2ac11239254a7c94c3cbd2ca04cce16&mode=1&name=acestream&mode=1&name=SPORTS   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/jOfo0CH.png",[B][COLOR lawngreen]•[/B][/COLOR] ES [B][COLOR [B][COLOR white] MOVISTAR MOTOGP [/B][/COLOR]  [B][COLOR green][HD] [/B][/COLOR][B][COLOR red](Plexus)[/B][/COLOR]
-plugin://program.plexus/?mode=1&url=acestream://60a47df84ee4d29bbf7fea200f6dd46f7330ec78&mode=1&name=acestream&mode=1&name=SPORTS   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/jOfo0CH.png",[B][COLOR lawngreen]•[/B][/COLOR] ES [B][COLOR [B][COLOR white] MOVISTAR MOTOGP [/B][/COLOR]  [B][COLOR blue][SD] [/B][/COLOR][B][COLOR red](http)[/B][/COLOR]
-rtmp://www1.iguide.to/iguide playpath=av7woklj9cf5oc2 swfUrl=http://www.iguide.to/player/secure_player_iguide_embed_token.swf live=1 pageUrl=http://www.iguide.to/embedplayer_new.php?width=650&height;=400&channel;=30323&autoplay;=true token=#ed%h0#w18623jsda6523lDGD   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/bOAFFza.png",[B][COLOR lawngreen]•[/B][/COLOR] CZ [B][COLOR [B][COLOR white] NOVA SPORT 1 [/B][/COLOR]  [B][COLOR green][HD] [/B][/COLOR][B][COLOR red](Plexus)[/B][/COLOR]
-plugin://program.plexus/?mode=1&url=acestream://6ad08ea0a5c025f00be8ba1ad106821f27d17296&mode=1&name=acestream&mode=1&name=SPORTS   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/RHiYBnZ.png",[B][COLOR lawngreen]•[/B][/COLOR] POL [B][COLOR [B][COLOR white] POLSAT SPORT NEWS [/B][/COLOR]  [B][COLOR blue][SD] [/B][/COLOR][B][COLOR red](Plexus)[/B][/COLOR]
-plugin://program.plexus/?mode=1&url=acestream://97fa7f7b25775b0daa085c8d6d5a52a357aca6b3&mode=1&name=acestream&mode=1&name=SPORTS   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/G8yH187.png",[B][COLOR yellow]•[/B][/COLOR] PT [B][COLOR [B][COLOR white] SPORT TV 5 [/B][/COLOR]  [B][COLOR blue][SD] [/B][/COLOR][B][COLOR red](http)[/B][/COLOR]
-rtmp://179.43.158.198:17157/stream/ playPath=g0IBo1519y0yBo2LWxCbT.stream?r906i437yr566i8463rr5363a437kr5363a437kr437i564br5363a437kr8463i489mr8503i751lr8463i489mr5363a437kr751i8503n swfUrl=http://thecdn.04stream.com/p/ooolo1.swf flashver=WIN\2021,0,0,216 timeout=15 live=1 pageUrl=http://www.04stream.com/ebb.php?adsp=ttother&width=600&height=460&a=t853i602yt13i357rt2773a602kt2773a602kt602i616bt2773a602kt357i749mt7923i692lt357i749mt2773a602kt692i7923n&st=k5p2v4n4w574x2s2f436q24693u5y2i36546d364o3s243f44474x254t2t27413q2t2s284&adx=&stream=6454j584j5m574x2d4i5q2k55494b4n2m544j3a3f4w21374f476w226d3j474m3v3r4a3j5q3y34363z3q274943474u2y24444r264o2m5w2f3l4v5v2x2p243x46476o4n434n3v356d364j283x5i4p5d4h20524o5i5z5r5l2o256z3n204o2l5x274649433s2x28433a4m5l5y254w2v2e4u21303t2n5z26413033454b4d4c434p2o234z3n204o204&sooor=NQ==&str=is&ok=&cat=3&link=1&idom=firstrowas.co   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/G8yH187.png",[B][COLOR yellow]•[/B][/COLOR] PT [B][COLOR [B][COLOR white] SPORT TV 5 [/B][/COLOR]  [B][COLOR blue][SD] [/B][/COLOR][B][COLOR red](f4mtester)[/B][/COLOR]
-plugin://plugin.video.f4mTester/?url=http%3A%2F%2Fftvnext.stmteam.org%3A8000%2Flive%2Fdelia%2Fdelia%2F1089.ts;streamtype=TSDOWNLOADER|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25   
-#EXTINF:-1 tvg-logo="http://i.imgur.com/G2EBBma.png",[B][COLOR lawngreen]•[/B][/COLOR] SW [B][COLOR [B][COLOR white] VIASAT MOTOR [/B][/COLOR]  [B][COLOR blue][SD] [/B][/COLOR][B][COLOR red](Plexus)[/B][/COLOR]
-plugin://program.plexus/?mode=1&url=acestream://0afc6b95e79f63b7e0f00484453d5cc0c1a67290&mode=1&name=acestream&mode=1&name=SPORTS   
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia das Avencas
+https://video-auth1.iol.pt/beachcam/praiadasavencas/playlist.m3u8
 
-#EXTINF:-1, [B]--- Filmes ---[/B]
-http://0.0.0.0
-#EXTINF:-1, [COLOR blue]As legendas poderam não aparecer automaticamente[/COLOR]
-http://0.0.0.0
-#EXTINF:-1, [COLOR blue]efectuar procura manual ([COLOR red]addon opensubtitles[/COLOR])[/COLOR]
-http://0.0.0.0
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Parede
+https://video-auth1.iol.pt/beachcam/parede/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="http://www.magazine-hd.com/apps/wp/wp-content/uploads/2017/06/homem-aranha-regresso-a-casa-poster-1.jpg", Homem-Aranha: Regresso a Casa [2017]
-https://3.bp.blogspot.com/O12O_ir8ZdImC6y3-APgHkIxPK4sS905FhPbO1g8zK-B5hNVsffcV5Yeon7DW6eRA8FG3W7N-5YHCFq_g0vDlyYeCe1_j8nQVcHE2Y35B8mOMAC7f1R05iB-K1mE96JkKonT-gO9_GxE2xe85qB9g0y4ZtHX83GLXC3Ki4AgTGYEIXkSPqYQ49rFpIGFcFtJBmHqBrrg-cfTiCu60MzYuTLDgBKiFSP-bMnH2i-WILAV2QJoNXly8C2s1QrTjIc-HrOK06vavY_yxujwTEs0-mW5KCqJ1qWQo7MMUxA8sNtWTBEi0JH6I2JUuCnEYRRXaVBdP6bCZ2FZc77CkWIysGW5eSkTSgKbztg630Qd9v1EZgqbKYBzUGfMBGJ-7KeaLuxylOUbR1USimJGhXislyOcX6gqfoB5TsEMKsc6atAN1jx_sXEvzfgo2omXoQzoUSZWhrFXwewFv3uEoLWCiRDVp7Pc5LYKvygKI5KHzTluuqnvAOynqUkOqYMZcIQXsHy2wfxydPLo1Z8DPYXAcQQ7f7HdlxLhcqb4DjxZYWN9RSXJZ8SnusBEH5kkfX5FCY54DYyZp0WT7r2e022UT-EEvJLN3X2KzlcxlUQmslE=m37?hash=c43f3802be4dffef18e79d6339938b45?hash=66d714c04e707a838d0c1455fa004035
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Carcavelos
+https://video-auth1.iol.pt/beachcam/carcavelos/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="http://br.web.img2.acsta.net/r_1280_720/pictures/17/05/17/09/31/312127.jpg", Planeta dos Macacos: A Guerra [2017]
-https://3.bp.blogspot.com/kJftGa-IKIEzWkO8JaXa5tRIKu1c27du3uQkCCGD8wkHxZPE0k92l-P4NuBE5a-tV0jTLs5Exmvxfm_FKaQ6Y2gfvJYqAqJF74DkUb4omGo8UTYlmbOMePdFRxpzxPzrzCQaTwjC2FlCqr5oR_7OqU_7AHLGetYrHkP5Vvt8A5A3pblYpE70ku_K9ILHSgdObKTvcntJiApok8QgF6LNpRcsTNjXWH6qBEwW_FPI8tKgr1NMF9YwVZv3T8TwXhMkXjwLokKr_QGH6sCl_pp-VqD1mXf9BeseShSgcgILcbQ9V87duvpJASlN4jH7yK7PWmPCu0wkuY-sqX-M9nVmEspWqbWcaf1dAFDbFsSA84GvpnjObFCcEl9AoLLxfzjczwEleOwbPzpk21iODirOtu7teaBlbcJ0m0otQp3vopDezzvNNiOg1L4vgsqg1fbDqKbDH6EKlOElUZG4w4MwN5aUL4Hm05yaB-FKGI8YDlVLOxZONvnb8Gtlt86CiavTg4XogrVlBomgjAUgq23FyWzVvrnNCmBrqL3G2L3lNeGROC9cLXbtWCYS7RNDOHbB_896b7MDhOYhGs45wc5U80v4_H4kb3Wm6M3HHXxscLI=m37?hash=910b1fdbd52857c9991c1a8b6ad3f7c4?hash=b1b5722bf815e835a775524bfb21a6aa
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Carcavelos - Calhau
+https://video-auth1.iol.pt/beachcam/carcavelos2/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="http://br.web.img3.acsta.net/r_1280_720/pictures/17/06/19/09/39/095017.jpg", Wind River [2017]
-https://3.bp.blogspot.com/1z-EfSjGNBZWdJsgVRzAskxA8-h8hicWm6kH7Z9200Oe2v32-AMIpJnRWFBYhGw-jjhT-dAHwVMqj2vcBDZj69d6h3u3031YYJM6R__q0RrohKzzxHws2CrJvbJ2AANjSwcRIzpV8a766VUVaZSKaJecQdq9Ss2WLJM_OJKZxCt8965xbms6NZL7L62seVbMR35l4S8XnN3KuRvpJ5X0NvHXy6hAhvY_sicQz0_LU9RAyxRL_cgXsK9iWqQpouePyVYMt1XKS3Duwa3qe8Y9wY67d54mHA5x0jf44Ey_SKpBHT_SCSyx80l5ajTTPgEemTDm7oCaYEGCYgU7T3ju5hc-Y1mESBwizES6VGdsWLhjRJU-n9JQ0O-VUy6UzMO9Hd3Uw74mA-AKHZ8iyNIRGtHFETRfJSeVTCo-eQHEZ01yb4d35pea_87sszjpSxfK2YRPt7TkGV8z-bWgbIcEQ_J0C_zOaBTUszC3JagAjH2XDCH4rjTzQxCH0BINkNKjHHM1MDIx1r7xEiI--GIY_T_4rCS6XjTJNKiSsy_b5JFsKy-pMzerQK44m6fUKaohb79L3uWaugGpALUxC2hCevQkNKjV3zg1kwb1tbAlsg=m37?hash=49f11bccfc90ac5ad6ac07f2ff68a234?hash=e283715bfbb630f4ece9ce503ed61c2f
 
-#EXTINF:-1 tvg-logo="https://jovemnerd.com.br/wp-content/uploads/2016/12/transformers-the-last-knight-poster-1.jpeg", Transformers: O Último Cavaleiro [2017]
-https://3.bp.blogspot.com/aFJiSVP3HAWb89fud6o7a1o3xgrDZOkAqo77D5i4Pgz0LMrSMtoslQ52NHuCvBNx2j-KHVVSCu084dU2A7cO1185mWv1rFxFK8T_Qt88Z7o-Tvffb_3oYkGo2AE3rK91nVRk47bc8BdleF2Y7rw7UDsdSjAtYxNQ5kweFlAgWGejAtVo6klv5CeDo498H9DfgN-Ke4yteN7Ou8mbcGcO2o_awuIbuPIfMNgEizDu_YZDO98Z67olQ4pcSnH8h3JPieOZTV6lBAn9hBgZPMkeMMuOdS9wAPm_bZ__k5DB0TxEuyeCINs4VTBOrS7Yq3bt5_jLgbXaJhxF2c7Lt5j09kcb_3axOFMcEz2_Xxp-boVWcufOp_GIGBeGV4dshLmK_5XesQXtfy1OqM6DT_Et_RM59dD3BFmoxymuOR2nWeTRLvQLqJDJVXqSqb1v4xkdOTfxiduisW2vf2MhMwoacNO1aLheOuTUhDy87q1Stug80HOe0m3cvYgwdSpCG-r3m651rCW2cE-0jXxsvESMRfP3aWVrO6hGu5UjjIIRQZgG9TjyhIk0z84wWV2ZndPnqnZv6LGgP_vEcv5f-WFC7w4YGdQDA0sZ7LFhfPM8
+# Praias Oeiras
 
-#EXTINF:-1 tvg-name="RTPNinformacao.pt" audio-track="pt" tvg-logo="http://www.thelogodb.com/images/media/logo/uqwusu1445089739.png" group title="Portugal", RTP 3 [SD]
-rtmp://rtppullswflivefs.fplive.net/rtppullswflive-live playpath=2ch64h264 swfUrl=http://programas.rtp.pt/play/player.swf?v3  pageUrl=http://www.rtp.pt/play/direto/rtp3?mag swfVfy=1 live=1 timeout=15
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia da Torre
+https://video-auth1.iol.pt/beachcam/bctorre/playlist.m3u8
 
-#EXTINF:-1 tvg-name="sicnoticias.pt" audio-track="pt" tvg-logo="http://www.thelogodb.com/images/media/logo/wtpyqt1436899156.png" group title="Portugal", SIC Notícias [SD]
-http://213.13.26.11:1935/live/sicnoticias/livestream.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Santo Amaro
+https://video-auth1.iol.pt/beachcam/santoamaro/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TVI24.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/wtysqy1436898428.png" group title="Portugal", TVI24 [FSD]
-http://video-live.iol.pt:1935/live_tvi24/smil:LIVE_TVI24/playlist.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Paço de Arcos
+https://video-auth1.iol.pt/beachcam/parcos/playlist.m3u8
 
-#EXTINF:-1 tvg-id="EconomicoTV.pt" tvg-logo="http://www.thelogodb.com/images/media/logo/qsxstr1436844125.png" group title="Portugal",Económico TV [FSD]
-http://213.13.26.41:1935/live/etv_direto/playlist.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Caxias
+https://video-auth1.iol.pt/beachcam/caxias/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Euronews.nws" tvg-logo="http://www.thelogodb.com/images/media/logo/tuuryw1433426397.png" group title="Portugal", Euronews [SD]
-http://fr-par-iphone-1.cdn.hexaglobe.net/streaming/euronews_ewns/ipad_pt.m3u8
 
-#EXTINF:-1 tvg-id="Euronews.nws" tvg-logo="http://www.thelogodb.com/images/media/logo/tuuryw1433426397.png" group title="Portugal", Euronews [SD]
-rtsp://ewns-hls-b-stream.hexaglobe.net/rtpeuronewslive/pt_vidan750_rtp.sdp
+# Praias Almada
 
-#EXTINF:-1 tvg-logo="http://www.thelogodb.com/images/media/logo/rsxstu1436845265.png" group title="Portugal", TPA Internacional [FSD]
-http://myafricanmega3.tulix.tv:1935/map-tpaint/map-tpaint.stream/playlist.m3u8
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Costa de Caparica - S. João
+https://video-auth1.iol.pt/beachcam/costacaparicasaojoao/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="http://www.thelogodb.com/images/media/logo/vwwxru1438374081.png" group title="World", Sky News [1080p] (Youtube)
-plugin://plugin.video.youtube/?path=/root/video&action=play_video&videoid=y60wDzZt8yg
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Costa de Caparica - CDS Norte
+https://video-auth1.iol.pt/beachcam/costacaparicacds/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="http://www.thelogodb.com/images/media/logo/ywxyxx1434552642.png" group title="World", France 24 [HD] (Youtube)
-plugin://plugin.video.youtube/?path=/root/video&action=play_video&videoid=qKEk1YCOz8Q
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Costa de Caparica - CDS Sul
+https://video-auth1.iol.pt/beachcam/costacaparicabernard/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="http://www.thelogodb.com/images/media/logo/ywxyxx1434552642.png" group title="World", France 24 [HD] (English) (Youtube)
-plugin://plugin.video.youtube/?path=/root/video&action=play_video&videoid=p7t_GWXmgFk
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Costa de Caparica - Riviera
+https://video-auth1.iol.pt/beachcam/riviera/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="http://www.thelogodb.com/images/media/logo/ywxyxx1434552642.png" group title="World", France 24 [HD] (Arabic) (Youtube)
-plugin://plugin.video.youtube/?path=/root/video&action=play_video&videoid=55IL8QtH0Ao
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Costa de Caparica - Cabana do Pescador
+https://video-auth1.iol.pt/beachcam/bccabanadopescador/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="http://www.thelogodb.com/images/media/logo/uyyvps1434018285.png" group title="World", RT USA [HD]
-http://rt-lh.akamaihd.net/i/ch_04@325608/index_720p_av-p.m3u8?sd=10&amp;rebase=on
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Fonte da Telha
+https://video-auth1.iol.pt/beachcam/fontedatelha/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="http://www.thelogodb.com/images/media/logo/uyyvps1434018285.png" group title="World", RT UK [HD]
-http://rt-lh.akamaihd.net/i/ch_06@325610/index_720p_av-p.m3u8?sd=10&amp;rebase=on
 
-#EXTINF:-1 tvg-logo="http://www.thelogodb.com/images/media/logo/yywurx1452283188.png" group title="World", PRESS TV [HD]
-http://presstv-ch03.level3.hls.live.cdn.overon.es/livehigh/playlist.m3u8
+# Praias Sesimbra
 
-#EXTINF:-1 tvg-logo="http://vignette2.wikia.nocookie.net/logopedia/images/8/8a/CBS_HD.png" group title="World", CBS [HD]
-http://cbsnewshd-lh.akamaihd.net/i/CBSNDC_4@199302/index_4000_av-b.m3u8?sd=10&rebase=on
-
-#EXTINF:0 tvg-logo="http://www.thelogodb.com/images/media/logo/uxyyyp1433940740.png" group title="World", Aljazeera English
-rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/aljazeera_eng_high
-
-#EXTINF:0 tvg-logo="http://vignette3.wikia.nocookie.net/logopedia/images/0/08/ABC_News_2013b.png" group title="World", ABC News [HD]
-http://abclive.abcnews.com/i/abc_live4@136330/master.m3u8?
-
-#EXTINF:0 tvg-logo="http://www.thelogodb.com/images/media/logo/vptvpr1437950713.png" group title="World", Bloomberg
-http://cdn3.videos.bloomberg.com/btv/us/master.m3u8?
-
-#EXTINF:0 tvg-logo="http://www.thelogodb.com/images/media/logo/vptvpr1437950713.png" group title="World", Bloomberg (2)
-http://live.bltvios.com.edgesuite.net/tv/us/master.m3u8
-
-#EXTINF:0 tvg-logo="http://www.thelogodb.com/images/media/logo/vqsspx1443638480.png" group title="World", i24news
-http://bcoveliveios-i.akamaihd.net/hls/live/215102/master_english/398/master.m3u8
-
-#EXTINF:0 tvg-logo="http://www.thelogodb.com/images/media/logo/xxtsyv1436895578.png" group title="World", Deutsche Welle (Europe)
-http://dwschiene6-i.akamaihd.net/hls/live/221763/dwschiene6/x6x/playlist6x.m3u8
-
-#EXTINF:0 tvg-logo="http://www.thelogodb.com/images/media/logo/qqtssw1436894339.png" group title="World", TVE 24h
-http://iphonelive.rtve.es/24H_LV3_IPH/bitrate_2.m3u8
-
-#EXTINF:0 tvg-logo="http://www.thelogodb.com/images/media/logo/sxryur1433426110.png" group title="World", CCTV News
-http://77.36.61.45:8010/CCTVNews.m3u8
-
-#EXTINF:0 tvg-logo="http://www.thelogodb.com/images/media/logo/qttvuy1436846679.png" group title="World", NHK World
-http://nhkwglobal-i.akamaihd.net/hls/live/222714/nhkwglobal/index_1180.m3u8
-
-#EXTINF:0 tvg-logo="http://www.thelogodb.com/images/media/logo/qxyuys1434616490.png" group title="World", Sky TG 24 (ITA)
-http://skyianywhere2-i.akamaihd.net/hls/live/200275/tg24/playlist.m3u8
-
-#EXTINF:0 tvg-logo="http://www.thelogodb.com/images/media/logo/utysqs1452178014.png" group title="World", WGN 9 CW
-http://wgntribune-lh.akamaihd.net/i/WGNPrimary_1@304622/index_350_av-p.m3u8?
-
-#EXTINF:0 tvg-logo="http://www.thelogodb.com/images/media/logo/uxyyyp1433940740.png" group title="World", Aljazeera Arabic
-rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live/aljazeera_ara_high
-
-#EXTINF:0 tvg-logo="http://www.quadplay.tv/images/ch/al_maghribia.png" group title="World", Al Maghribia
-http://178.33.88.130:888/udp/239.102.0.198:1234
-
-#EXTINF:0 tvg-logo="http://4.bp.blogspot.com/-Sueq2cYIIZk/UJ1F9_r4tqI/AAAAAAAAA4I/kz8u05qYi34/s1600/Palestine+today+TV+Channel+Frequency.png" group title="World", Palestin Today
-http://live.paltoday.tv:1935/paltv/live/gmswf.m3u8
-
-#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/75/Sama_TV_Logo.png" group title="World", SamaTv
-http://sama-tv.net:1935/live/samatv/playlist.m3u8
-
-#EXTM3U
-
-#EXTINF:-1, [B][COLOR blue]CANAIS INTERNACIONAIS[/COLOR][/B]
-http://0.0.0.0
-#EXTINF:-1, [B][COLOR red]Gracias a TV ONLINE 2016 (Youtube) por el video[/COLOR][/B]
-https://www.youtube.com/watch?v=D-4IT5JhCos
-
-------------------------------------------------------------------------------------
-#EXTINF:-1,[COLOR lime]---Bolivia---[/COLOR]
-http://0.0.0.0
-
-#EXTINF:-1,Red PAT Bolivia
-http://www.server.tevemi.com:1935/8092/8092/playlist.m3u8
-
-------------------------------------------------------------------------------------
-#EXTINF:-1,[COLOR lime]---Colombia---[/COLOR]
-http://0.0.0.0.0
-
-#EXTINF:-1,Canal Capital Colombia
-http://cdns840stu1010.multistream.net/canalcapitallive/amlst:live/master.m3u8
-#EXTINF:-1,Canal U Colombia
-http://xcanalutvx.api.channel.livestream.com/3.0/playlist.m3u8
-#EXTINF:-1,Teleamiga Colombia
-http://cdns840stu1010.multistream.net/teleamigalive/amlst:live/master.m3u8
-
-------------------------------------------------------------------------------------
-#EXTINF:-1,[COLOR lime]---Venezuela---[/COLOR]
-http://0.0.0.0
-
-#EXTINF:-1,Anzoategui TV Venezuela
-rtsp://edge.wms28.lorini.net/anzoateguitv/anzoateguitv
-#EXTINF:-1,Canal 11 Venezuela
-rtmp://edge.wms28.lorini.net/canalonce/canalonce
-#EXTINF:-1,Sulavision Venezuela
-http://162.212.176.83:8080/sulavision.m3u8
-#EXTINF:-1,TRT Venezuela
-rtmp://edge.wms28.lorini.net/trttv/trttv
-#EXTINF:-1,TVO Canal 23 Venezuela
-http://xtvocanal23x.api.channel.livestream.com/3.0/playlist.m3u8
-#EXTINF:-1,Canal i  Venezuela
-rtmp://edge.wms28.lorini.net/canal-i/canal-i
-#EXTINF:-1,Vale TV  Venezuela
-rtmp://edge.wms28.lorini.net/valetv/valetv
-#EXTINF:-1,Telecaribe Venezuela
-http://cdns840stu1010.multistream.net/telecaribelive/amlst:live/master.m3u8
-
-------------------------------------------------------------------------------------
-#EXTINF:-1,[COLOR lime]---Rep. Dominicana---[/COLOR]
-http://0.0.0.0
-
-#EXTINF:-1,Tele Antillas  Rep. Dominicana
-http://mek4.mekstream.com/teleantillas/live3/playlist.m3u8
-#EXTINF:-1,Telessistema  Rep. Dominicana
-http://mek4.mekstream.com/telesistema/smil:telesistema.smil/chunklist_w965232534_b464000.m3u8
-#EXTINF:-1,Telesitemas 11 Rep. Dominicana
-http://mek4.mekstream.com/telesistema/smil:telesistema.smil/chunklist_w965232534_b464000.m3u8
-#EXTINF:-1,Teleantillas 2 HD Rep. Dominicana
-http://mek4.mekstream.com/teleantillas/live3/playlist.m3u8
-#EXTINF:-1,TeleNord Rep. Dominicana
-rtmp://mek2.mekstream.com:1935/telenord10 playpath=live2 swfUrl=http://www.mekstream.com/clients/telenord10/player-licensed.swf 
-#EXTINF:-1,CDN 37 Rep. Dominicana
-http://108.168.206.90:1935/cdn/cdn/playlist.m3u8
-
-------------------------------------------------------------------------------------
-#EXTINF:-1,[COLOR lime]---Costa Rica---[/COLOR]
-http://0.0.0.0
-
-#EXTINF:-1,SINART Canal Trece Costa Rica
-http://stream01.cyberfuel.com/SinartCanal13/livestream/playlist.m3u8
-#EXTINF:-1,SMO TV Costa Rica
-http://199.217.118.90:1935/smotv/stream/playlist.m3u8
-#EXTINF:-1,Colosal TV Costa Rica
-http://k3.usastreams.com:1935/colosaltv1/colosaltv1/playlist.m3u8
-#EXTINF:-1,Tv UNO Costa Rica
-http://k3.usastreams.com:1935/tvuno1/tvuno1/playlist.m3u8
-#EXTINF:-1,TV Costa Rica
-http://ipointcablertmp.tulix.tv:1935/cb24stream/myStream.sdp/playlist.m3u8?
-#EXTINF:-1,Extra TV Canal 42 Costa Rica
-http://k3.usastreams.com:1935/canal42/canal42/playlist.m3u8
-#EXTINF:-1,CB24 Noticias Costa Rica
-http://ipointcablertmp.tulix.tv:1935/cb24stream/myStream.sdp/playlist.m3u8
-
-------------------------------------------------------------------------------------
-#EXTINF:-1,[COLOR lime]---Chile---[/COLOR]
-http://0.0.0.0
-
-
-#EXTINF:-1,TV Familia
-http://tvstream02.creowebcl.com:80/8090/8090/playlist.m3u8
-#EXTINF:-1, Chile Vision
-http://live.hls.http.chv.ztreaming.com/chvhddesktop/chv-desktop.m3u8
-
-#EXTINF:-1,Canal 13 
-http://13.live.cdn.cl/13hddesktop/13hd-1250.m3u8
-
-#EXTINF:-1,Canal 13 C 
-http://cluster.13cmovil.ztreaming.com/13cm/grpz13c/playlist.m3u8
-
-------------------------------------------------------------------------------------
-#EXTINF:-1,[COLOR lime]---Ecuador---[/COLOR]
-http://0.0.0.0
-
-#EXTINF:-1,Ecuavisa Ecuador
-rtmp://62.210.83.152:1935/liverepeat playpath=ecuatv1 swfUrl=http://direct-stream.biz/jwplayer/jwplayer.flash.swf live=1 
-#EXTINF:-1,TVS Ecuador
-http://181.198.10.23:1935/live/_definst_/mp4:mystream_360p/playlist.m3u8
-#EXTINF:-1,UCSG TV Ecuador
-rtmp://ecuastream.net:1935/UCSGHQ/UCSGHQ
-#EXTINF:-1,Digital TV Canal 28 Macas Ecuador
-http://enhd.co:1935/9208/9208/playlist.m3u8
-
-------------------------------------------------------------------------------------
-#EXTINF:-1,[COLOR lime]---El Salvador---[/COLOR]
-http://0.0.0.0
-
-#EXTINF:-1,Megavision Canal 21 El Salvador
-http://xgrupomegavisionx.api.channel.livestream.com/3.0/playlist.m3u8
-#EXTINF:-1,Canal 33 El Salvador
-http://iphone-streaming.ustream.tv/uhls/4811076/streams/live/iphone/playlist.m3u8
-#EXTINF:-1,TRV El Salvador
-http://xtrvnuestasenalx.api.channel.livestream.com/3.0/playlist.m3u8
-
-------------------------------------------------------------------------------------
-#EXTINF:-1,[COLOR lime]---Guatemala---[/COLOR]
-http://0.0.0.0
-
-#EXTINF:-1,TV Maya Guatemala
-http://iphone-streaming.ustream.tv/uhls/9556054/streams/live/iphone/playlist.m3u8
-#EXTINF:-1,Campus TV Guatemala
-http://xcampushdx.api.channel.livestream.com/3.0/playlist.m3u8
-
-------------------------------------------------------------------------------------
-#EXTINF:-1,[COLOR lime]---Honduras---[/COLOR]
-http://0.0.0.0
-
-#EXTINF:-1,Teleceiba Honduras
-http://162.212.176.83:8080/teleceiba.m3u8
-#EXTINF:-1,Teleprogreso Honduras
-http://162.212.176.83:8080/teleprogreso.m3u8
-#EXTINF:-1,Azteca Honduras
-http://aztecalive-lh.akamaihd.net/i/142kvpq0l_1@67741/master.m3u8
-
-------------------------------------------------------------------------------------
-#EXTINF:-1,[COLOR lime]---Nicaragua---[/COLOR]
-http://0.0.0.0
-
-#EXTINF:-1,Viva Nicaragua Canal 13
-http://iphone-streaming.ustream.tv/uhls/13870671/streams/live/iphone/playlist.m3u8
-
-----------------------------------------------------------------
-#EXTINF:-1,[COLOR lime]---Paraguay---[/COLOR]
-http://0.0.0.0
-
-#EXTINF:-1,Telefuturo Paraguay
-http://xtelefuturohdx.api.channel.livestream.com/3.0/playlist.m3u8
-#EXTINF:-1,Canal 13 Paraguay
-rtmp://70.36.100.38:1935/live playpath=canal13_hq.stream swfUrl=http://www.rpc.com.py/swf/player_web04.swf 
-#EXTINF:-1,Intercable Canal 10 Paraguay
-rtmp://67.159.60.37/intercable playpath=intercable  swfUrl=http://www.desdeparaguay.com/images/dsdpy-play-2.swf?
-
-------------------------------------------------------------------------------------
-#EXTINF:-1,[COLOR lime]---Peru---[/COLOR]
-http://0.0.0.0
-
-#EXTINF:-1,Capital TV Peru
-http://ooyalahd2-f.akamaihd.net/i/globalradio01_delivery@156521/index_656_av-p.m3u8
-#EXTINF:-1,UCV Satelital Peru
-http://wowzacontrol.net:1935/8050/8050/playlist.m3u8
-#EXTINF:-1,Canal 4 Arequipa Peru
-http://xvivatvcanal4arequipax.api.channel.livestream.com/3.0/playlist.m3u8
-
-
-
-#EXTINF:-1,[COLOR blue]------------CANALES--------------[/COLOR][COLOR red]--------LATINOAMERICA----------------[/COLOR]
-http://0.0.0.0:1234
-
-------------------------------------------------------------------------------------
-#EXTINF:-1,[COLOR lime]---Venezuela---[/COLOR]
-http://0.0.0.0
-
-#EXTINF:-1,Anzoategui TV Venezuela
-rtsp://edge.wms28.lorini.net/anzoateguitv/anzoateguitv
-#EXTINF:-1,Canal 11 Venezuela
-rtmp://edge.wms28.lorini.net/canalonce/canalonce
-#EXTINF:-1,Sulavision Venezuela
-http://162.212.176.83:8080/sulavision.m3u8
-#EXTINF:-1,TRT Venezuela
-rtmp://edge.wms28.lorini.net/trttv/trttv
-#EXTINF:-1,TVO Canal 23 Venezuela
-http://xtvocanal23x.api.channel.livestream.com/3.0/playlist.m3u8
-#EXTINF:-1,Canal i  Venezuela
-rtmp://edge.wms28.lorini.net/canal-i/canal-i
-#EXTINF:-1,Vale TV  Venezuela
-rtmp://edge.wms28.lorini.net/valetv/valetv
-#EXTINF:-1,Telecaribe Venezuela
-http://cdns840stu1010.multistream.net/telecaribelive/amlst:live/master.m3u8
-
-------------------------------------------------------------------------------------
-#EXTINF:-1,[COLOR lime]---Rep. Dominicana---[/COLOR]
-http://0.0.0.0
-
-#EXTINF:-1,Tele Antillas  Rep. Dominicana
-http://mek4.mekstream.com/teleantillas/live3/playlist.m3u8
-#EXTINF:-1,Telessistema  Rep. Dominicana
-http://mek4.mekstream.com/telesistema/smil:telesistema.smil/chunklist_w965232534_b464000.m3u8
-#EXTINF:-1,ANTENA LATINA Rep. Dominicana
-http://ss6.domint.net:1962/al_edge/antena/playlist.m3u8
-#EXTINF:-1,Telesitemas 11 Rep. Dominicana
-http://mek4.mekstream.com/telesistema/smil:telesistema.smil/chunklist_w965232534_b464000.m3u8
-#EXTINF:-1,Teleantillas 2 HD Rep. Dominicana
-http://mek4.mekstream.com/teleantillas/live3/playlist.m3u8
-#EXTINF:-1,TeleNord Rep. Dominicana
-rtmp://mek2.mekstream.com:1935/telenord10 playpath=live2 swfUrl=http://www.mekstream.com/clients/telenord10/player-licensed.swf 
-
-------------------------------------------------------------------------------------
-#EXTINF:-1,[COLOR lime]---Mexico---[/COLOR]
-http://0.0.0.0
-
-#EXTINF:-1,El Trece HD
-http://aztecalive-lh.akamaihd.net/i/0oxnvzh8a_1@175671/index_3_av-b.m3u8
-#EXTINF:-1,CANAL DE LAS ESTRELLAS
-http://tvsawpdvr-lh.akamaihd.net/i/stch02wp_1@119660/index_1048_av-p.m3u8
-#EXTINF:-1,PROYECTO 40
-http://urtmpkal-f.akamaihd.net/i/05i15qzql_1@149710/index_2_av-p.m3u8
-#EXTINF:-1,Multimedios TV
-http://brightcovelive-i.akamaihd.net/hls/live/200018/bcplay-live/Multi/Multimedios.m3u8
-#EXTINF:-1,TV Pacifico Culiacan
-http://74.63.97.188:1935/gpacifico1/smil:gpculiacan.smil/playlist.m3u8
-#EXTINF:-1,CANAL 7 MAZATLAN
-http://74.63.97.188:1935/gpacifico4/videogpacifico4/chunklist_w1774114891.m3u8?
-#EXTINF:-1,CANAL 2 Mochis TV
-http://74.63.97.188:1935/gpacifico2/videogpacifico2/chunklist_w1461112480.m3u8
-#EXTINF:-1,TVMAS HD
-rtmp://50.7.98.234/rtv/videortv
-#EXTINF:-1,Canal 22
-rtmp://192.96.217.230/live/smrtv.sdp
-#EXTINF:-1,TELEMAR Campeche
-http://wms.tecnoxia.com:1935/8004/8004/telemarmexico.m3u8?
-#EXTINF:-1,TRC Campeche
-rtmp://video7.stream.mx:1935/8024/8024
-#EXTINF:-1,Canal 10 Chiapas
-rtmp://wos1.smartcast.com.mx/chiapas/chiapastv
-#EXTINF:-1,CANAL 53 UANL TV
-mms://streaming.uanl.mx/canal53bandaancha
-#EXTINF:-1,Michoacan al dia
-rtmp://video7.stream.mx:1935/8016/8016
-#EXTINF:-1,Canal Nuestra Vision Michoacan
-http://video7.stream.mx:1935/8032/8032/chunklist_w1286789486.m3u8
-#EXTINF:-1,Canal 5 Salina Cruz
-http://play.gvstream.net:554/e-tv-video/default.stream/chunklist_w316615179.m3u8
-#EXTINF:-1,Canal 10 Durango
-rtmp://wms.tecnoxia.com:80/8096//8096
-#EXTINF:-1,5 TV Coahuila
-http://play.gvstream.net:554/e-tv-video/default.stream/playlist.m3u8
-#EXTINF:-1,RCG TV Coahuila
-http://wowzacontrol.com:1935/stream34/stream34/playlist.m3u8
-#EXTINF:-1,TV Acapulco
-rtmp://stream.hosteris.com/tvacapulco/tvacapulco
-#EXTINF:-1,C7 Guadalajara
-http://74.63.97.188:1935/c7/videoc7/master.m3u8
-#EXTINF:-1,Cultura Guadalajara
-http://74.63.97.188:1935/gnode05/videognode05/master.m3u8
-#EXTINF:-1,2 TV Morelia
-http://iphone-streaming.ustream.tv/ustreamVideo/13946965/streams/live/playlist.m3u8
-#EXTINF:-1,Multimedios Nuevo León
-http://brightcovelive-i.akamaihd.net/hls/live/200018/bcplay-live/Multi/Multimedios.m3u8
-#EXTINF:-1,Canal Once
-http://www.oncetvmexicolive.tv:1935/livepkgr2/smil:int.smil/playlist.m3u8
-#EXTINF:-1,5 TV Tlaxcala
-http://coracyt.mega00.com:1935/live/coracyt/coracyt/playlist.m3u8
-#EXTINF:-1,EfektoTV
-http://grupomac-lh.akamaihd.net:80/i/004rss0k8_1@301782/master.m3u8
-#EXTINF:-1,Ingenio TV
-http://dl-dgtve.xsn.com.mx/dgtve/canal30dgtve.mp4/playlist.m3u8?
-#EXTINF:-1,Canal del Congreso
-http://dl.canaldelcongreso.gob.mx:1935/ccongreso/mp4:congreso2b.mp4/playlist.m3u8
-#EXTINF:-1,TRECEVISION YUCATAN
-http://74.222.3.185:1935/live/ngrp:trecevision_all/chunklist_w1676078199_b950272.m3u8
-#EXTINF:-1,QUINCE TV ZACATECAS
-http://live.zuperdns.net:1935/zuperhosting.live.grupob.canal15zacatecas/livestream/playlist.m3u8
-#EXTINF:-1,CANAL 15 FRESNILLO
-rtmp://live.zuperdns.net/zuperhosting.live.grupob.canal15fresnillo/livestream
-#EXTINF:-1,TVMas Veracruz
-http://50.7.98.234:1935/rtv/videortv//playlist.m3u8
-#EXTINF:-1,TVMas HD
-rtmp://50.7.98.234/rtv/videortv
-#EXTINF:-1,TV RADIO Y TELEVISION MEXIQUENSE
-rtmp://fss28.streamhoster.com:1935/lv_tvmexiquense/_definst_/broadcast1
-#EXTINF:-1,Aprende
-http://dl-dgtve.xsn.com.mx/dgtve/canal24dgtve.mp4/playlist.m3u8
-#EXTINF:-1,TV Pacifico Obregón
-http://74.63.97.188:1935/gpacifico3/smil:obregon.smil/playlist.m3u8
-#EXTINF:-1,TELEMAX
-http://enhd.co:1935/ilive/ilive/playlist.m3u8?
-#EXTINF:-1,Canal 2 YAQUI TV
-http://74.63.97.188:1935/gpacifico3/videogpacifico3/chunklist_w1075509085.m3u8
-#EXTINF:-1,Canal 66 Mexicali
-http://canal44-lh.akamaihd.net/i/ch_mexicali@325633/master.m3u8
-
-#EXTM3U
-#EXTINF:0,=== Adult 18+ ===
-http://
-#EXTINF:0, Adult XXX
-http://wowza1.videos.movile.com:8080/live/smil:adulto_1.smil/playlist.m3u8
-#EXTINF:0, Asian Porn 1
-http://edge2.everyon.tv/etv2/pld1003/HasBahCa.m3u8
-#EXTINF:0, Asian Porn 2
-http://edge2.everyon.tv/etv2/pld1008/HasBahCa.m3u8
-#EXTINF:0, Asian Porn 3
-http://edge2.everyon.tv/etv2/pld1005/HasBahCa.m3u8
-#EXTINF:0, Ask TV 
-http://edge2.everyon.tv:1935/etv2/phd1005/paz.m3u8
-#EXTINF:0, Bella Club 
-http://46.249.213.93/iPhone/broadcast/bellaclub-tablet.3gp/bellaclub-tablet.3gp-mr648k.m3u8
-#EXTINF:0, BabeStation X-Treme
-http://178.33.126.213:1935/bsx24/mpegts1.stream/.m3u8
-#EXTINF:0, BRAZZERS
-http://4BA9EBDB07C05883:@5.159.96.170:8000/brazzers
-#EXTINF:0, BSX
-http://178.33.126.213:1935/bsx24/mpegts1.stream/chunklist.m3u8?wowzasessionid=1294940186
-#EXTINF:0, BSX
-http://0100dyndns.tv:7879/live/tazia/tazia/557.m3u8
-#EXTINF:0, Boys Mania
-http://wowza1.videos.movile.com:8080/live/smil:adultopremium_1.smil/playlist.m3u8
-#EXTINF:0, ButGo
-http://edge2.everyon.Tv:1935/etv2sb/phd772/huraivza.m3u8
-#EXTINF:0, CLARO ADULTO
-http://wowza1.videos.movile.com:1935/live/adulto_1.smil/stream.m3u8
-#EXTINF:0, CLARO ADULTO (2)
-http://wowza1.videos.movile.com:8080/live/adulto_1.smil/stream.m3u8
-#EXTINF:0, CLARO ADULTO PREMIUM
-http://wowza1.videos.movile.com:1935/live/adultopremium_1.smil/stream.m3u8
-#EXTINF:0, CLARO ADULTO PREMIUM (2)
-http://wowza1.videos.movile.com:8080/live/adultopremium_1.smil/stream.m3u8
-#EXTINF:0, Exotica TV HD
-http://2streamingiptv.ddns.net:18001/live/Buscaglia/Buscaglia/3588.ts
-#EXTINF:0, erotic 1
-http://0100dyndns.tv:7879/live/tazia/tazia/155.m3u8
-#EXTINF:0, erotic 2
-http://www.nasatv.eu:80/live?channelId=67&uid=49&deviceUser=alena&devicePass=alena
-#EXTINF:0, erotic 3
-http://www.nasatv.eu:80/live?channelId=68&uid=49&deviceUser=alena&devicePass=alena
-#EXTINF:0, erotic 4
-http://www.nasatv.eu:80/live?channelId=37&uid=49&deviceUser=alena&devicePass=alena
-#EXTINF:0, FilmOn
-http://0100dyndns.tv:7879/live/tazia/tazia/154.m3u8
-#EXTINF:0, Flower (RU)
-http://46.182.25.34:1935/tv/1420/chunklist_w1894981632.m3u8
-#EXTINF:0, Hustler TV
-http://91.213.59.190:8000/239.0.0.199
-#EXTINF:0, HOT GIRL
-http://edge2.everyon.tv:1935/etv2sb/phd60/paz.m3u8
-#EXTINF:0, Hot Shots TV
-http://wowza1.videos.movile.com:8080/live/smil:adulto_1.smil/playlist.m3u8
-#EXTINF:0, Jasmin TV HD
-http://109.71.162.112:1935/live/sd.jasminchannel.stream/playlist.m3u8
-#EXTINF:0, Japao Hot
-rtmp://edge2.everyon.tv/etv2/pld1008
-#EXTINF:0, Корея 1 
-http://edge2.everyon.tv:1935/etv2sb/phd64/huraivza.m3u8
-#EXTINF:0, LiveSex
-http://publish.thewebstream.co:1935/cellcast/encoder21/playlist.m3u8
-#EXTINF:0, Livething Premium 
-http://edge2.everyon.tv/etv2/phd1006/BratuMarian.m3u8
-#EXTINF:0, Nefertisex 1
-http://46.249.213.93/iPhone/HLS_TS/broadcast/hotshots-tablet.3gp/hotshots-tablet.3gp-mr649k.m3u8
-#EXTINF:0, Nefertisex 2
-http://46.249.213.93/iPhone/broadcast/hot100-tablet.3gp/hot100-tablet.3gp-mr647k.m3u8
-#EXTINF:0, Nefertisex 3
-http://46.249.213.93/iPhone/broadcast/bollywoodbikini-tablet.3gp/bollywoodbikini-tablet.3gp-mr647k.m3u8
-#EXTINF:0, Nefertisex 4
-http://46.249.213.93/iPhone/broadcast/powergirls-tablet.3gp/powergirls-tablet.3gp-mr648k.m3u8
-#EXTINF:0, Nefertisex 5
-http://wowza1.videos.movile.com:8080/live/smil:adulto_1.smil/playlist.m3u8
-#EXTINF:0, Nefertisex 6
-http://wowza1.videos.movile.com:8080/live/smil:adultopremium_1.smil/playlist.m3u8
-#EXTINF:0, Nefertisex 7
-http://46.249.213.93/iPhone/HLS_TS/broadcast/hotshots-tablet.3gp/hotshots-tablet.3gp-mr649k.m3u8
-#EXTINF:0, Nefertisex 8
-http://46.249.213.93/iPhone/broadcast/babespotting-tablet.3gp/babespotting-tablet.3gp-mr397k.m3u8
-#EXTINF:0, Nefertisex 9
-http://62.210.82.241:8081/private/private/live.m3u8
-#EXTINF:0, Nefertisex 10
-http://62.210.82.241:8081/sexzonehd/sexzonehd/live.m3u8
-#EXTINF:0, Nuart-TV
-http://91.213.59.190:8000/239.0.1.156
-#EXTINF:0 tvg-logo="Adult.png" tvg-logo="http://goo.gl/fsVTZN", O-LA-LA
-http://4BA9EBDB07C05883:@5.159.96.170:8000/olala
-#EXTINF:0, PASSI XXX
-http://publish.thewebstream.co:1935/leved/_definst_/passielivestream/playlist.m3u8
-#EXTINF:0, PASSI XXX
-http://0100dyndns.tv:7879/live/tazia/tazia/153.m3u8
-#EXTINF:0, Playy
-http://edge2.everyon.Tv:1935/etv2sb/phd769/huraivza.m3u8
-#EXTINF:0, PLAY 2
-http://0100dyndns.tv:7879/live/tazia/tazia/152.m3u8
-#EXTINF:0, Private.com
-http://178.33.126.213:1935/leved/privateCom/.m3u8
-#EXTINF:0, Русская Ночь
-http://91.213.59.190:8000/239.0.0.198
-#EXTINF:0, Redlight HD
-http://91.213.59.190:8000/239.0.1.27
-#EXTINF:0, SAKURA (Koreia)
-http://edge2.everyon.tv:1935/etv2sb/phd61/paz.m3u8
-#EXTINF:0, Sexstation 
-http://178.33.126.213:1935/iptv_cellcast_24/livestream1/chunklist.m3u8
-#EXTINF:0, Spice
-http://edge2.everyon.Tv:1935/etv2sb/phd771/huraivza.m3u8
-#EXTINF:0, Venus
-http://46.182.25.34:1935/tv/1420/chunklist_w1894981632.m3u8
-#EXTINF:0, Venus HD (2)
-rtmp://edge2.everyon.tv/etv2/phd1005
-#EXTINF:0, WowGirls.com
-http://0100dyndns.tv:7879/live/tazia/tazia/151.m3u8
-#EXTINF:0, XXX0
-http://188.165.220.116:8081/live2/37/playlist.m3u8
-#EXTINF:0, XXX1
-http://188.165.220.116:8081/live/68/playlist.m3u8
-#EXTINF:0, XXX2
-http://188.165.220.116:8081/live2/43/playlist.m3u8
-#EXTINF:0, 21 Sextury.com
-http://188.165.220.116:8081/live/62/playlist.m3u8
-
-#EXTINF:0, === [B][COLOR red]AceStream/Plexus[/COLOR][/B] ===
-http://
-#EXTINF:0, brazzers-tv-europe
-plugin://program.plexus/?mode=1&url=acestream://d4651408263f14e7b48e12c7d8ea566abf0a27d1&name=brazzers-tv-europe
-#EXTINF:0, candy
-plugin://program.plexus/?mode=1&url=acestream://3bc119a0acfae80ec76c36a21a1c535c6f642bff&name=candy
-#EXTINF:0, candyman
-plugin://program.plexus/?mode=1&url=acestream://8435bc88fe2809cbf4250e6f857828d077a7c8a8&name=candyman
-#EXTINF:0, centoxcento-tv
-plugin://program.plexus/?mode=1&url=acestream://c12fb25dd0389272b6632778584dad2698f4b3ea&name=centoxcento-tv
-#EXTINF:0, eroxxx-hd
-plugin://program.plexus/?mode=1&url=acestream://b9511ea6be2739814eb9ac95db82572767b0f367&name=eroxxx-hd
-#EXTINF:0, exotica-tv
-plugin://program.plexus/?mode=1&url=acestream://822fed2c7a6acd2e05ceefab0c2afed00f64e5fa&name=exotica-tv
-#EXTINF:0, hustler-hd
-plugin://program.plexus/?mode=1&url=acestream://2d8915e2357b581712152ee0c3f4ca2a3112942f&name=hustler-hd
-#EXTINF:0, hustler-tv
-plugin://program.plexus/?mode=1&url=acestream://5ab50fbb36c6e04eac57b36e930ea9d126e4dc36&name=hustler-tv
-#EXTINF:0, nuart-tv
-plugin://program.plexus/?mode=1&url=acestream://662c6ad696aa6567e24a9b14fd9e9526720ae243&name=nuart-tv
-#EXTINF:0, o-la-la
-plugin://program.plexus/?mode=1&url=acestream://edc6f1a8b654b648715e640a731c3e0596f486d1&name=o-la-la
-#EXTINF:0, pink-o-tv
-plugin://program.plexus/?mode=1&url=acestream://765e2401b0aa154545f4b55cc32860b523f7f96b&name=pink-o-tv
-#EXTINF:0, playboy-tv
-plugin://program.plexus/?mode=1&url=acestream://1a786800a0d58cff383b5015c885ac1b1e840654&name=playboy-tv
-#EXTINF:0, redlight-hd
-plugin://program.plexus/?mode=1&url=acestream://3bf1a9355957947311d0ebae5f14a846aea92b91&name=redlight-hd
-#EXTINF:0, satisfaction-hd
-plugin://program.plexus/?mode=1&url=acestream://75f4f8f069172d77258a8250a5cfd59a123ca286&name=satisfaction-hd
-#EXTINF:0, sextosenso
-plugin://program.plexus/?mode=1&url=acestream://7a120f14c9f0f6676fd863116b3eaa2d7c712701&name=sextosenso
-#EXTINF:0, Venus
-plugin://program.plexus/?mode=1&url=acestream://71b41b3bebb9c4e6c2e55f29f5427b9efeae6f95&name=Venus
-#EXTINF:0, tgirls-tv
-plugin://program.plexus/?mode=1&url=acestream://b48874056e1e987efeee256b5f96fa116233108d&name=tgirls-tv
-#EXTINF:0, xxl
-plugin://program.plexus/?mode=1&url=acestream://6fc1b0669bc3b9e02e07c2c85772d31540df5027&name=xxl
-#EXTINF:0, xxx
-plugin://program.plexus/?mode=1&url=acestream://bdfd5523a9d54474f5572e209352746794adcb83&name=xxx
-
-#EXTINF:0,=== Live ===
-http://
-#EXTINF:0, Live Sex Latinas
-http://178.33.126.213:1935/leved/livesexlatinas/chunklist.m3u8
-#EXTINF:0 tvg-logo="Adult.png" tvg-logo="http://goo.gl/fsVTZN", BabeStation CAM1
-http://46.105.116.159:1935/cellcast/encoder22/.m3u8
-#EXTINF:0 tvg-logo="Adult.png" tvg-logo="http://goo.gl/fsVTZN", BabeStation CAM2
-http://46.105.116.159:1935/cellcast/encoder72/.m3u8
-#EXTINF:0 tvg-logo="Adult.png" tvg-logo="http://goo.gl/fsVTZN", BabeStation CAM3
-http://178.33.126.213:1935/cellcast/encoder32/.m3u8
-#EXTINF:0 tvg-logo="Adult.png" tvg-logo="http://goo.gl/fsVTZN", BabeStation CAM4
-http://178.33.126.213:1935/iptv_cellcast_24/livestream1/chunklist.m3u8
-
-
-#EXTINF:0,=== Movies ===
-http://
-#EXTINF:-1, Adult 4K: VOD1
-http://videos.galleries.pornpros.com/galleries.tiny4k.com/htdocs/fb01/fb01_chloeamour022714/content/vid01.mp4
-#EXTINF:-1, Adult 4K: VOD2
-http://videos.galleries.pornpros.com/galleries.tiny4k.com/htdocs/fb01/fb01_sabrinabanks071414/content/vid01.mp4
-#EXTINF:-1, Adult 4K: VOD3
-http://videos.galleries.pornpros.com/galleries.tiny4k.com/htdocs/fb01/fb01_tiffanyfox030514/content/vid01.mp4
-#EXTINF:-1, Adult 4K: VOD4
-http://videos.galleries.pornpros.com/galleries.tiny4k.com/htdocs/fb01/fb01_kaceyjordan061914/content/vid01.mp4
-#EXTINF:-1, Adult 4K: VOD5
-http://videos.galleries.pornpros.com/galleries.tiny4k.com/htdocs/fb01/fb01_jennaross040414/content/vid01.mp4
-#EXTINF:-1, Adult 4K: VOD6
-http://videos.galleries.pornpros.com/galleries.tiny4k.com/htdocs/fb01/fb01_kaceyjordan031914/content/vid01.mp4
-#EXTINF:-1, Adult 4K: VOD7
-http://videos.galleries.pornpros.com/galleries.tiny4k.com/htdocs/fb01/fb01_chloefoster021214/content/vid01.mp4
-#EXTINF:-1, Adult 4K: VOD8
-http://videos.galleries.pornpros.com/galleries.tiny4k.com/htdocs/fb01/fb01_dillionharper030614/content/vid01.mp4
-#EXTINF:-1, Adult 4K: VOD9
-http://videos.galleries.pornpros.com/galleries.tiny4k.com/htdocs/fb01/fb01_emmastoned03414/content/vid01.mp4
-#EXTINF:-1, Adult 4K: VOD10
-http://videos.galleries.pornpros.com/galleries.tiny4k.com/htdocs/fb01/fb01_avataylor_emmastoned032514/content/vid01.mp4
-#EXTINF:-1, Adult 4K: VOD11
-http://videos.galleries.pornpros.com/galleries.tiny4k.com/htdocs/fb01/fb01_dakotaskye040314/content/vid01.mp4
-#EXTINF:0,1
-http://ru-porn.Tv/videofile?id=11750&hq=high&ex=mp4
-#EXTINF:0,2
-http://ru-porn.Tv/videofile?id=14686&hq=high&ex=mp4
-#EXTINF:0,3
-http://ru-porn.Tv/videofile?id=12826&hq=high&ex=mp4
-#EXTINF:0,4
-http://ru-porn.Tv/videofile?id=13284&hq=high&ex=mp4
-#EXTINF:0,5
-http://ru-porn.tv/videofile?id=14660&hq=high&ex=mp4
-#EXTINF:0,6
-http://ru-porn.tv/videofile?id=14625&hq=high&ex=mp4
-#EXTINF:0,7
-http://ru-porn.tv/videofile?id=14336&hq=high&ex=mp4
-#EXTINF:0,8
-http://ru-porn.tv/videofile?id=14553&hq=high&ex=mp4
-#EXTINF:0,9
-http://ru-porn.tv/videofile?id=14585&hq=high&ex=mp4
-#EXTINF:0,10
-http://ru-porn.tv/videofile?id=14434&hq=high&ex=mp4
-#EXTINF:0,11
-http://ru-porn.tv/videofile?id=14556&hq=high&ex=mp4
-#EXTINF:0,12
-http://ru-porn.tv/videofile?id=14458&hq=high&ex=mp4
-#EXTINF:0,13
-http://ru-porn.tv/videofile?id=14527&hq=high&ex=mp4
-#EXTINF:0,14
-http://ru-porn.tv/videofile?id=14382&hq=high&ex=mp4
-#EXTINF:0,15
-http://ru-porn.tv/videofile?id=14441&hq=high&ex=mp4
-#EXTINF:0,16
-http://ru-porn.tv/videofile?id=14390&hq=high&ex=mp4
-#EXTINF:0,17
-http://ru-porn.tv/videofile?id=13709&hq=high&ex=mp4
-#EXTINF:0,18
-http://ru-porn.tv/videofile?id=14517&hq=high&ex=mp4
-#EXTINF:0,19
-http://ru-porn.tv/videofile?id=14345&hq=high&ex=mp4
-#EXTINF:0,20
-http://ru-porn.tv/videofile?id=14283&hq=high&ex=mp4
-#EXTINF:0,21
-http://ru-porn.tv/videofile?id=14398&hq=high&ex=mp4
-#EXTINF:0,22
-http://ru-porn.tv/videofile?id=14266&hq=high&ex=mp4
-#EXTINF:0,23
-http://ru-porn.tv/videofile?id=91&hq=high&ex=mp4
-#EXTINF:0,24
-http://ru-porn.tv/videofile?id=2359&hq=medium&ex=mp4
-#EXTINF:0,25
-http://ru-porn.tv/videofile?id=2384&hq=medium&ex=mp4
-#EXTINF:0,26
-http://ru-porn.tv/videofile?id=10743&hq=medium&ex=mp4
-#EXTINF:0,27
-http://ru-porn.tv/videofile?id=10766&hq=high&ex=mp4
-#EXTINF:0,28
-http://ru-porn.tv/videofile?id=10789&hq=high&ex=mp4
-#EXTINF:0,29
-http://ru-porn.tv/videofile?id=10792&hq=medium&ex=mp4
-#EXTINF:0,30
-http://ru-porn.tv/videofile?id=10800&hq=low&ex=mp4
-#EXTINF:0,31
-http://ru-porn.tv/videofile?id=10777&hq=low&ex=mp4
-#EXTINF:0,32
-http://ru-porn.tv/videofile?id=10785&hq=high&ex=mp4
-#EXTINF:0,33
-http://ru-porn.tv/videofile?id=10711&hq=high&ex=mp4
-#EXTINF:0,34
-http://ru-porn.tv/videofile?id=10696&hq=medium&ex=mp4
-#EXTINF:0,35
-http://ru-porn.tv/videofile?id=10695&hq=medium&ex=mp4
-#EXTINF:0,36
-http://ru-porn.tv/videofile?id=10704&hq=high&ex=mp4
-#EXTINF:0,37
-http://ru-porn.tv/videofile?id=10703&hq=medium&ex=mp4
-#EXTINF:0,38
-http://ru-porn.tv/videofile?id=10668&hq=medium&ex=mp4
-#EXTINF:0,39
-http://ru-porn.tv/videofile?id=10639&hq=medium&ex=mp4
-#EXTINF:0,40
-http://ru-porn.tv/videofile?id=10630&hq=medium&ex=mp4
-#EXTINF:0,41
-http://ru-porn.tv/videofile?id=10641&hq=medium&ex=mp4
-#EXTINF:0,42
-http://ru-porn.tv/videofile?id=10660&hq=medium&ex=mp4
-#EXTINF:0,43
-http://ru-porn.tv/videofile?id=10616&hq=medium&ex=mp4
-#EXTINF:0,44
-http://ru-porn.tv/videofile?id=10608&hq=high&ex=mp4
-#EXTINF:0,45
-http://ru-porn.tv/videofile?id=10607&hq=high&ex=mp4
-#EXTINF:0,46
-http://ru-porn.tv/videofile?id=10598&hq=medium&ex=mp4
-#EXTINF:0,47
-http://ru-porn.tv/videofile?id=10591&hq=medium&ex=mp4
-#EXTINF:0,48
-http://ru-porn.tv/videofile?id=11174&hq=high&ex=mp4
-#EXTINF:0,49
-http://ru-porn.tv/videofile?id=11188&hq=high&ex=mp4
-#EXTINF:0,50
-http://ru-porn.tv/videofile?id=11182&hq=high&ex=mp4
-#EXTINF:-1,X_MOVIE_1
-http://0100dyndns.tv:7879/movie/tazia/tazia/679.mp4
-#EXTINF:-1,X_MOVIE_2
-http://0100dyndns.tv:7879/movie/tazia/tazia/680.mp4
-#EXTINF:-1,X_MOVIE_3
-http://0100dyndns.tv:7879/movie/tazia/tazia/681.mp4
-#EXTINF:-1,X_MOVIE_4
-http://0100dyndns.tv:7879/movie/tazia/tazia/682.mp4
-#EXTINF:-1,X_MOVIE_5
-http://0100dyndns.tv:7879/movie/tazia/tazia/683.mp4
-#EXTINF:-1,X_MOVIE_6
-http://0100dyndns.tv:7879/movie/tazia/tazia/684.mp4
-#EXTINF:-1,X_MOVIE_7
-http://0100dyndns.tv:7879/movie/tazia/tazia/685.mp4
-#EXTINF:-1,X_MOVIE_8
-http://0100dyndns.tv:7879/movie/tazia/tazia/686.mp4
-#EXTINF:-1,X_MOVIE_9
-http://0100dyndns.tv:7879/movie/tazia/tazia/687.mp4
-#EXTINF:-1,X_MOVIE_10
-http://0100dyndns.tv:7879/movie/tazia/tazia/688.mp4
-#EXTINF:-1,X_MOVIE_11
-http://0100dyndns.tv:7879/movie/tazia/tazia/692.mp4
-#EXTINF:-1,X_MOVIE_12
-http://0100dyndns.tv:7879/movie/tazia/tazia/693.mp4
-#EXTINF:-1,X_MOVIE_13
-http://0100dyndns.tv:7879/movie/tazia/tazia/694.mp4
-#EXTINF:-1,X_MOVIE_14
-http://0100dyndns.tv:7879/movie/tazia/tazia/695.mp4
-#EXTINF:-1,X_MOVIE_15
-http://0100dyndns.tv:7879/movie/tazia/tazia/696.mp4
-#EXTINF:-1,X_MOVIE_16
-http://0100dyndns.tv:7879/movie/tazia/tazia/697.mp4
-#EXTINF:-1,X_MOVIE_17
-http://0100dyndns.tv:7879/movie/tazia/tazia/698.mp4
-#EXTINF:-1,X_MOVIE_18
-http://0100dyndns.tv:7879/movie/tazia/tazia/699.mp4
-#EXTINF:-1,X_MOVIE_19
-http://0100dyndns.tv:7879/movie/tazia/tazia/700.mp4
-#EXTINF:-1,X_MOVIE_20
-http://0100dyndns.tv:7879/movie/tazia/tazia/701.mp4
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Lagoa de Albufeira
+https://video-auth1.iol.pt/beachcam/bclagoaalbufeira/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia do Meco
+https://video-auth1.iol.pt/beachcam/bcmeco/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia das Bicas
+https://video-auth1.iol.pt/beachcam/bcpraiadasbicas/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia Sesimbra
+https://video-auth1.iol.pt/beachcam/sesimbra/playlist.m3u8
+
+
+# Praias Alentejo
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Troia
+https://video-auth1.iol.pt/beachcam/bctroia/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Comporta
+https://video-auth1.iol.pt/beachcam/bccomporta/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia do Carvalhal
+https://video-auth1.iol.pt/beachcam/carvalhal/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",S. Torpes
+https://video-auth1.iol.pt/beachcam/saotorpes/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Vila Nova de Milfontes - Farol
+https://video-auth1.iol.pt/beachcam/bcfarol/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Vila Nova de Milfontes - Furnas Mar
+https://video-auth1.iol.pt/beachcam/furnasmar/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Almograve - New
+https://video-auth1.iol.pt/beachcam/bcalmograve/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Zambujeira do Mar
+https://video-auth1.iol.pt/beachcam/zambujeira/playlist.m3u8
+
+
+# Praias Algarve
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Odeceixe
+https://video-auth1.iol.pt/beachcam/bcodeceixe/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Monte Clérigo
+https://video-auth1.iol.pt/beachcam/bcmonteclerigo/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Arrifana
+https://video-auth1.iol.pt/beachcam/arrifana/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia da Luz
+https://video-auth1.iol.pt/beachcam/luz/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Meia Praia
+https://video-auth1.iol.pt/beachcam/meiapraia/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Alvor
+https://video-auth1.iol.pt/beachcam/alvor/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia da Rocha
+https://video-auth1.iol.pt/beachcam/praiadarocha/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Ferragudo - Praia Grande
+https://video-auth1.iol.pt/beachcam/ferragudo/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Carvoeiro
+https://video-auth1.iol.pt/beachcam/carvoeiro/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Senhora da Rocha e Praia Nova
+https://video-auth1.iol.pt/beachcam/bcigreja/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Armação de Pêra
+https://video-auth1.iol.pt/beachcam/armacaodepera/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia da Galé
+https://video-auth1.iol.pt/beachcam/bcgale/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia do Peneco
+https://video-auth1.iol.pt/beachcam/praiadopeneco/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Vilamoura
+https://video-auth1.iol.pt/beachcam/vilamoura/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Faro
+https://video-auth1.iol.pt/beachcam/bcfaro/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Alagoa - Altura
+https://video-auth1.iol.pt/beachcam/bcalagoa/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia Verde - Castro Marim
+https://video-auth1.iol.pt/beachcam/bcpraiaverde/playlist.m3u8
+
+
+# Praias Ilhas
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Madeira - Ponta Pequena - Paul
+https://video-auth1.iol.pt/beachcam/madeirajardimdomar/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Madeira - Jardim do Mar
+https://video-auth1.iol.pt/beachcam/jardimdomardois/playlist.m3u8
+
+
+# Praias fluviais/piscinas
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Praia das Rocas
+https://video-auth1.iol.pt/beachcam/praiadasrocas/playlist.m3u8
+
+
+# Lagos e rios
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Ferreira do Zêzere - Cable Park
+https://video-auth1.iol.pt/beachcam/bccableferreira/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Ferreira do Zêzere - Lago Azul
+https://video-auth1.iol.pt/beachcam/bclagoazul/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Ferreira do Zêzere - Dornes
+https://video-auth1.iol.pt/beachcam/bcdornes/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Lisboa - Cais do Sodré
+https://video-auth1.iol.pt/beachcam/caisdosodre/playlist.m3u8
+
+#EXTINF:-1 group-title="Beachcam" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png",Lisboa - Belém
+https://video-auth1.iol.pt/beachcam/belem/playlist.m3u8
+
+
+# Sem Moderação
+
+#EXTINF:-1 media="true" group-title="Sem Moderação" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SM.jpg",Sem Moderação - 9/3/2022
+https://videos-fms.jwpsrv.com/0_622d6dfc_0xb1fa1c84bcc86403b594e7cf6c8c43c1956353c1/content/conversions/i0kOV6po/videos/JupMwN4W-34192116.mp4.m3u8
+
+
+# Eixo do Mal
+
+#EXTINF:-1 media="true" group-title="Eixo do Mal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Eixo-do-Mal.jpg",Eixo do Mal - 11/3/2022
+https://videos-fms.jwpsrv.com/0_622d6d3e_0x7890439d208ebf809f12e46e8ac5a0291c880ba4/content/conversions/i0kOV6po/videos/sEibLwSW-34192116.mp4.m3u8
+
+
+# Programa Cujo Nome Estamos Legalmente Impedidos de Dizer
+
+#EXTINF:-1 media="true" group-title="PCNELID" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/PCNELID.jpg",PCNELID - 12/3/2022
+https://videos-fms.jwpsrv.com/0_622d6d28_0x4d20fd6e6fa1982ed726970ef7a6e609d50794cc/content/conversions/i0kOV6po/videos/Ix1fcH2Y-34192116.mp4.m3u8
+
+
+# The Jimmy Dore Show
+
+#EXTINF:-1 media="true" group-title="The Jimmy Dore Show" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/The-Jimmy-Dore-Show.png",The Jimmy Dore Show - Biden BEGS Venezuela For Oil
+https://sp.rmbl.ws/s8/2/A/5/v/t/A5vtd.haa.mp4
+
+#EXTINF:-1 media="true" group-title="The Jimmy Dore Show" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/The-Jimmy-Dore-Show.png",The Jimmy Dore Show - Fox Business Guest Tells Truth About Ukraine President
+https://sp.rmbl.ws/s8/2/W/Y/g/s/WYgsd.haa.mp4
+
+#EXTINF:-1 media="true" group-title="The Jimmy Dore Show" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/The-Jimmy-Dore-Show.png",The Jimmy Dore Show - US/NATO Provoked Ukraine War Say Most Experts On Russia
+https://sp.rmbl.ws/s8/2/6/n/b/p/6nbpd.haa.mp4
+
+
+# Relatório DB (Kodi + YouTube addon)
+
+#EXTINF:-1 media="true" group-title="Relatório DB (Kodi)" tvg-logo="",RELATÓRIO DB - JANEIRO 2022
+plugin://plugin.video.youtube/play/?video_id=zuKIh2U2xfE
+
+#EXTINF:-1 media="true" group-title="Relatório DB (Kodi)" tvg-logo="",RELATÓRIO DB - DEZEMBRO 2021
+plugin://plugin.video.youtube/play/?video_id=14e1nGmSbJs
+
+#EXTINF:-1 media="true" group-title="Relatório DB (Kodi)" tvg-logo="",RELATÓRIO DB - NOVEMBRO 2021
+plugin://plugin.video.youtube/play/?video_id=FmVa6JyFLRk
+
+#EXTINF:-1 media="true" group-title="Relatório DB (Kodi)" tvg-logo="",RELATÓRIO DB - OUTUBRO 2021
+plugin://plugin.video.youtube/play/?video_id=2dGRTsLacoQ
+
+#EXTINF:-1 media="true" group-title="Relatório DB (Kodi)" tvg-logo="",RELATÓRIO DB - SETEMBRO 2021
+plugin://plugin.video.youtube/play/?video_id=wDl0fhOcI1E
+
+#EXTINF:-1 media="true" group-title="Relatório DB (Kodi)" tvg-logo="",RELATÓRIO DB - AGOSTO 2021
+plugin://plugin.video.youtube/play/?video_id=llvKcrvHt3w
+
+#EXTINF:-1 media="true" group-title="Relatório DB (Kodi)" tvg-logo="",RELATÓRIO DB - JULHO 2021
+plugin://plugin.video.youtube/play/?video_id=FHn2cZRIsAc
+
+
+# Documentários (Kodi + YouTube addon)
+
+#EXTINF:-1 media="true" group-title="Docs (Kodi)" tvg-logo="",Os Donos de Portugal
+plugin://plugin.video.youtube/play/?video_id=OuzxncV9l3M
+
+#EXTINF:-1 media="true" group-title="Docs (Kodi)" tvg-logo="",Mão Invisível - uma história do neoliberalismo em Portugal
+plugin://plugin.video.youtube/play/?video_id=ceTCzCptzEM
+
+#EXTINF:-1 media="true" group-title="Docs (Kodi)" tvg-logo="",Banned TED Talk: Nick Hanauer "Rich people don't create jobs"
+plugin://plugin.video.youtube/play/?video_id=CKCvf8E7V1g
+
+#EXTINF:-1 media="true" group-title="Docs (Kodi)" tvg-logo="",The dirty secret of capitalism - and a new way forward | Nick Hanauer
+plugin://plugin.video.youtube/play/?video_id=th3KE_H27bs
+
+#EXTINF:-1 media="true" group-title="Docs (Kodi)" tvg-logo="",Democracy at Work: Curing Capitalism | Richard Wolff | Talks at Google
+plugin://plugin.video.youtube/play/?video_id=ynbgMKclWWc
+
+#EXTINF:-1 media="true" group-title="Docs (Kodi)" tvg-logo="",Zeitgeist: Moving Forward
+plugin://plugin.video.youtube/play/?video_id=4Z9WVZddH9w
+
+#EXTINF:-1 media="true" group-title="Docs (Kodi)" tvg-logo="",How poor people survive in the USA | DW Documentary
+plugin://plugin.video.youtube/play/?video_id=JHDkALRz5Rk
